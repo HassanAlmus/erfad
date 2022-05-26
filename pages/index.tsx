@@ -591,7 +591,7 @@ const Home: NextPage = () => {
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
                     <QuestionMarkCircleIcon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">Why "Erfad"?</p>
+                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">Why &#34;Erfad&#34;?</p>
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">Erfad is a synonym of beneficence, which represents one of the goals that we seek in every work bearing the organization’s name.</dd>
               </div>
@@ -600,7 +600,7 @@ const Home: NextPage = () => {
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
                     <QuestionMarkCircleIcon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">لماذا "إرفاد"؟</p>
+                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">لماذا &#34;إرفاد&#34;؟</p>
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">إرفاد مرادف إحسان، والتي تمثل احدى اهدافنا التي نسعى لها في كل عمل يحمل اسم المنظمة.</dd>
               </div>
