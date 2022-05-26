@@ -640,8 +640,8 @@ const Home: NextPage = () => {
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
                        <h3 className='text-white text-center'>{person.name} | {person.nameAr}</h3>
-                      <p className="text-blue">{person.roleAr}</p>
-                      <p className="text-blue">{person.role}</p>
+                      <p className="text-green">{person.roleAr}</p>
+                      <p className="text-green">{person.role}</p>
                     </div>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">
