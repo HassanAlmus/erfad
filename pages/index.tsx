@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import Image from 'next/image'
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -481,7 +480,7 @@ const Home: NextPage = () => {
                 <ul className='list-disc list-inside mt-4 text-base text-gray-500'>
                   <li>Calling for urgent action on environmental issues in general and the issue of climate change in particular in Saudi society.</li>
                   <li>Clarify any misconceptions about the environment.</li>
-                  <li>Improving environmental culture through creating suitable content for all segments of Saudi society in order to fulfill the organization's primary goal.</li>
+                  <li>Improving environmental culture through creating suitable content for all segments of Saudi society in order to fulfill the organization&#39;s primary goal.</li>
                   <li>Encouraging people to make a difference and seek to discover solutions that help improve the environment.</li>
                   <li>Create opportunities for all segments of Saudi society and start taking real actions to improve the environment.</li>
                 </ul>
@@ -611,7 +610,7 @@ const Home: NextPage = () => {
                   </div>
                   <p className="mt-5 text-lg leading-6 font-medium text-gray-900">Our Logo</p>
                 </dt>
-                <dd className="mt-2 text-base text-gray-500">The font has been carefully chosen to reflect the organization's target audience. <br/><br/>The letter "ر" was delivered in Arabic and the letter "f" in English to express the organization's provision of all means of communication with the various categories of its target audience.<br/><br/>The palm represents growth, and each frond of the palm represents one of the values of the organization, which are: (persistence, sincerity, honesty, growth, justice, perfection).</dd>
+                <dd className="mt-2 text-base text-gray-500">The font has been carefully chosen to reflect the organization&#39;s target audience. <br/><br/>The letter &#34;ر&#34; was delivered in Arabic and the letter &#34;f&#34; in English to express the organization&#39;s provision of all means of communication with the various categories of its target audience.<br/><br/>The palm represents growth, and each frond of the palm represents one of the values of the organization, which are: (persistence, sincerity, honesty, growth, justice, perfection).</dd>
               </div>
               <div className='[direction:rtl]'>
                 <dt>
@@ -622,7 +621,7 @@ const Home: NextPage = () => {
                 </dt>
                 <dd className="mt-2 text-base text-gray-500">
                 تم اختيار الخط بدقة ليعبر عن الجمهور المستهدف للمنظمة.<br/><br/>
-وتم توصيل حرف ال "ر" باللغة العربية وحرف ال"f" باللغة الانجليزية ليعبر عن توفير المنظمة لجميع سبل التواصل مع مختلف فئات جمهورها المستهدف.<br/><br/>
+وتم توصيل حرف ال &#34;ر&#34; باللغة العربية وحرف ال&#34;f&#34; باللغة الانجليزية ليعبر عن توفير المنظمة لجميع سبل التواصل مع مختلف فئات جمهورها المستهدف.<br/><br/>
 تمثل النخلة النماء ويمثل كل سعف للنخلة قيمة من قيم المنظمة وهي: (الإصرار، الإخلاص، الأمانة، النماء، العدالة، الإتقان)
                 </dd>
               </div>
