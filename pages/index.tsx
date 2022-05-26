@@ -372,7 +372,7 @@ const Home: NextPage = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
+                      className="block px-3 py-2 rounded-md text-xl font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
                     </a>
@@ -401,7 +401,7 @@ const Home: NextPage = () => {
               <div className="rounded-md shadow">
                 <a
                   href="#"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent font-bold rounded-md text-white bg-green hover:bg-darkgreen md:py-4 text-xl md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent font-bold rounded-md text-white bg-green hover:bg-darkgreen md:py-4 text-2xl md:px-10"
                 >
                   Our Blog
                 </a>
@@ -409,7 +409,7 @@ const Home: NextPage = () => {
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="#"
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-xl font-medium rounded-md text-darkgreen bg-white hover:bg-gray-50 md:py-4 md:px-10"
+                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-2xl font-medium rounded-md text-darkgreen bg-white hover:bg-gray-50 md:py-4 md:px-10"
                 >
                   مدونتنا
                 </a>
@@ -433,10 +433,10 @@ const Home: NextPage = () => {
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl text-center font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Our Vision | رؤيتنا</h1>
           <div className='flex justify-between gap-x-10'>
-          <p className="mt-6 max-w-3xl text-xl text-gray-300">
+          <p className="mt-6 max-w-3xl text-2xl text-gray-300">
           A greener Saudi, where citizens work together to improve the environment by adopting environmentally-friendly habits in their daily lives.
           </p>
-          <p className="mt-6 text-right max-w-3xl text-xl text-gray-300">
+          <p className="mt-6 text-right max-w-3xl text-2xl text-gray-300">
           سعودية أكثر اخضرارَا, يسهم مواطنوها مجتمعين على اتباع ممارسات يومية تساعد في تحسين البيئة.
           </p>
           </div>
@@ -457,12 +457,9 @@ const Home: NextPage = () => {
                 <div className="absolute top-0 p-5 inline-block bg-green rounded-xl shadow-lg transform -translate-y-1/2">
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
-                <h3 className="text-xl font-medium text-gray-900 text-center">Our Message | رسالتنا</h3>
-                <p className="mt-4 text-base text-gray-500 text-right">نسعى إلى بناء مجتمع يؤثر على البيئة بشكل إيجابي من خلال رفع الوعي لديهم، وإتاحة حملات وفرص تطوعية ثريّة توطّد القيم البيئية.</p>
-                <p className="mt-4 text-base text-gray-500">We seek to build a society that has a positive impact on the environment by increasing public awareness and providing campaigns and volunteer opportunities that promote environmental values.</p>
-                <h3 className="text-xl font-medium text-gray-900 text-center pt-4">Target Audience | الفئة المستهدفة</h3>
-                <p className="mt-4 text-base text-gray-500 text-center">جميع أفراد المجتمع السعودي</p>
-                <p className="mt-4 text-base text-gray-500 text-center">All individuals in Saudi Arabia</p>
+                <h3 className="text-2xl font-medium text-gray-900 text-center">Our Message | رسالتنا</h3>
+                <p className="mt-4 text-xl text-gray-500 text-right">نسعى إلى بناء مجتمع يؤثر على البيئة بشكل إيجابي من خلال رفع الوعي لديهم، وإتاحة حملات وفرص تطوعية ثريّة توطّد القيم البيئية.</p>
+                <p className="mt-4 text-xl text-gray-500">We seek to build a society that has a positive impact on the environment by increasing public awareness and providing campaigns and volunteer opportunities that promote environmental values.</p>
               </div>
             </div>
             <div className="bg-white rounded-2xl shadow-xl">
@@ -470,8 +467,8 @@ const Home: NextPage = () => {
                 <div className="absolute top-0 p-5 inline-block bg-green rounded-xl shadow-lg transform -translate-y-1/2">
                   <StarIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
-                <h3 className="text-xl font-medium text-gray-900 text-center">Our Mission</h3>
-                <ul className='list-disc list-inside mt-4 text-base text-gray-500'>
+                <h3 className="text-2xl font-medium text-gray-900 text-center">Our Mission</h3>
+                <ul className='list-disc list-inside mt-4 text-xl text-gray-500'>
                   <li>Calling for urgent action on environmental issues in general and the issue of climate change in particular in Saudi society.</li>
                   <li>Clarify any misconceptions about the environment.</li>
                   <li>Improving environmental culture through creating suitable content for all segments of Saudi society in order to fulfill the organization&#39;s primary goal.</li>
@@ -485,8 +482,8 @@ const Home: NextPage = () => {
                 <div className="absolute top-0 p-5 inline-block bg-green rounded-xl shadow-lg transform -translate-y-1/2">
                   <StarIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
-                <h3 className="text-xl font-medium text-gray-900 text-center">مهمتنا</h3>
-                <ul className='list-disc list-inside mt-4 text-base text-gray-500 [direction:rtl]'>
+                <h3 className="text-2xl font-medium text-gray-900 text-center">مهمتنا</h3>
+                <ul className='list-disc list-inside mt-4 text-xl text-gray-500 [direction:rtl]'>
                   <li>الدعوة إلى اتخاذ إجراءات عاجلة بشأن القضايا البيئية بشكل عام وقضية التغير المناخي بشكل خاص في المجتمع السعودي.</li>
                   <li>تصحيح المفاهيم الخاطئة المتعلقة بالبيئة.</li>
                   <li>تعزيز الثقافة البيئية عن طريق صنع محتوى ملائم لجميع فئات المجتمع السعودي بحيث يحقق هدف المنظمة الرئيسي.</li>
@@ -508,37 +505,37 @@ const Home: NextPage = () => {
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Persistence | الإصرار</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Persistence | الإصرار</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Sincerity | الإخلاص</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Sincerity | الإخلاص</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Honesty | الإمانة</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Honesty | الإمانة</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Growth | النماء</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Growth | النماء</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Justice | العدل</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Justice | العدل</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-lg leading-6 font-medium text-gray-900">Excellence | الإتقان</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Excellence | الإتقان</p>
                 </dt>
               </div>
           </dl>
@@ -584,36 +581,36 @@ const Home: NextPage = () => {
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
                     <QuestionMarkCircleIcon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">Why &#34;Erfad&#34;?</p>
+                  <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">Why &#34;Erfad&#34;?</p>
                 </dt>
-                <dd className="mt-2 text-base text-gray-500">Erfad is a synonym of beneficence, which represents one of the goals that we seek in every work bearing the organization’s name.</dd>
+                <dd className="mt-2 text-xl text-gray-500">Erfad is a synonym of beneficence, which represents one of the goals that we seek in every work bearing the organization’s name.</dd>
               </div>
               <div className='[direction:rtl]'>
                 <dt>
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
                     <QuestionMarkCircleIcon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">لماذا &#34;إرفاد&#34;؟</p>
+                  <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">لماذا &#34;إرفاد&#34;؟</p>
                 </dt>
-                <dd className="mt-2 text-base text-gray-500">إرفاد مرادف إحسان، والتي تمثل احدى اهدافنا التي نسعى لها في كل عمل يحمل اسم المنظمة.</dd>
+                <dd className="mt-2 text-xl text-gray-500">إرفاد مرادف إحسان، والتي تمثل احدى اهدافنا التي نسعى لها في كل عمل يحمل اسم المنظمة.</dd>
               </div>
               <div>
                 <dt>
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
                     <InformationCircleIcon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">Our Logo</p>
+                  <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">Our Logo</p>
                 </dt>
-                <dd className="mt-2 text-base text-gray-500">The font has been carefully chosen to reflect the organization&#39;s target audience. <br/><br/>The letter &#34;ر&#34; was delivered in Arabic and the letter &#34;f&#34; in English to express the organization&#39;s provision of all means of communication with the various categories of its target audience.<br/><br/>The palm represents growth, and each frond of the palm represents one of the values of the organization, which are: (persistence, sincerity, honesty, growth, justice, perfection).</dd>
+                <dd className="mt-2 text-xl text-gray-500">The font has been carefully chosen to reflect the organization&#39;s target audience. <br/><br/>The letter &#34;ر&#34; was delivered in Arabic and the letter &#34;f&#34; in English to express the organization&#39;s provision of all means of communication with the various categories of its target audience.<br/><br/>The palm represents growth, and each frond of the palm represents one of the values of the organization, which are: (persistence, sincerity, honesty, growth, justice, perfection).</dd>
               </div>
               <div className='[direction:rtl]'>
                 <dt>
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
                     <InformationCircleIcon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-gray-900">شعارنا</p>
+                  <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">شعارنا</p>
                 </dt>
-                <dd className="mt-2 text-base text-gray-500">
+                <dd className="mt-2 text-xl text-gray-500">
                 تم اختيار الخط بدقة ليعبر عن الجمهور المستهدف للمنظمة.<br/><br/>
 وتم توصيل حرف ال &#34;ر&#34; باللغة العربية وحرف ال&#34;f&#34; باللغة الانجليزية ليعبر عن توفير المنظمة لجميع سبل التواصل مع مختلف فئات جمهورها المستهدف.<br/><br/>
 تمثل النخلة النماء ويمثل كل سعف للنخلة قيمة من قيم المنظمة وهي: (الإصرار، الإخلاص، الأمانة، النماء، العدالة، الإتقان)
@@ -638,10 +635,10 @@ const Home: NextPage = () => {
                 <div className="flex flex-col justify-between space-y-6 h-full bg-gray-800 py-10 px-6 rounded-lg xl:px-10">
                   {person.imageUrl==='#'?<UserCircleIcon className="mx-auto h-24 w-24 rounded-full stroke-gray-300"/>:<img className="mx-auto h-24 w-24 rounded-full" src={person.imageUrl} alt="" />}
                   <div className="space-y-2">
-                    <div className="text-lg leading-6 font-medium space-y-1">
-                       <h3 className='text-white text-center'>{person.name} | {person.nameAr}</h3>
-                      <p className="text-green">{person.roleAr}</p>
-                      <p className="text-green">{person.role}</p>
+                    <div className="text-xl leading-6 font-medium space-y-1">
+                       <h3 className='text-green text-center'>{person.name} | {person.nameAr}</h3>
+                      <p className="text-white">{person.roleAr}</p>
+                      <p className="text-white">{person.role}</p>
                     </div>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">
@@ -702,7 +699,7 @@ const Home: NextPage = () => {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-400">&copy; 2022, Erfad Org. All rights reserved.</p>
+          <p className="text-center text-xl text-gray-400">&copy; 2022, Erfad Org. All rights reserved.</p>
         </div>
       </div>
     </footer>
