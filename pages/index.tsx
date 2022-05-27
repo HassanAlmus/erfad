@@ -400,7 +400,7 @@ const Home: NextPage = () => {
             <div className="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="https://erfad-en.blogspot.com/" target='_blank' rel="noreferrer"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent font-bold rounded-md text-white bg-green hover:bg-darkgreen md:py-4 text-2xl md:px-10"
                 >
                   Our Blog
@@ -408,7 +408,7 @@ const Home: NextPage = () => {
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
-                  href="#"
+                  href="https://erfad-ar.blogspot.com/" target='_blank' rel="noreferrer"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-2xl font-medium rounded-md text-darkgreen bg-white hover:bg-gray-50 md:py-4 md:px-10"
                 >
                   مدونتنا
