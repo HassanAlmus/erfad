@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Harmattan', ...defaultTheme.fontFamily.sans],
+        sans: ['Mada', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         green: '#97E473',
