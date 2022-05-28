@@ -403,7 +403,7 @@ const Home: NextPage = () => {
           <div className="text-center">
             <h1 className="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span className="block xl:inline">Erfad</span>{' '}
-              <span className="block text-green xl:inline">إرفاد</span>
+              <span className="text-green">إرفاد</span>
             </h1>
             <div className='flex justify-between flex-wrap-reverse gap-10'>
             <p className="w-[400px] text-left mt-3 max-w-md mx-auto text-2xl text-gray-500 md:mt-5 md:max-w-3xl">
