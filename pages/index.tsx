@@ -6,8 +6,7 @@ import { StarIcon, SparklesIcon, CheckIcon, InformationCircleIcon, QuestionMarkC
 
 const navigation = [
   { name: 'Leadership | القادة', href: '#leadership' },
-  { name: 'Members | الأعضاء', href: '/members' },
-  { name: 'Contact | التواصل', href: '#footer' },
+  { name: 'Members | الأعضاء', href: '/members' }
 ] 
 
 const navigation2 = [
@@ -659,10 +658,10 @@ const Home: NextPage = () => {
                   <div className="flex items-center space-x-4 lg:space-x-6">
                     {person.imageUrl==='#'?<UserCircleIcon className="w-16 h-16 rounded-full lg:w-20 lg:h-20 stroke-gray-300"/>:<img className="w-16 h-16 rounded-full lg:w-20 lg:h-20" src={person.imageUrl} alt="" />}
                     <div className="font-medium text-lg leading-6 space-y-1">
-                      <h3 className='text-white'>{person.nameAr}</h3>
-                      <h3 className='text-white'>{person.name}</h3>
-                      <p className="text-green">{person.roleAr}</p>
-                      <p className="text-green">{person.role}</p>
+                      <h3 className='text-green'>{person.nameAr}</h3>
+                      <h3 className='text-green'>{person.name}</h3>
+                      <p className="text-white">{person.roleAr}</p>
+                      <p className="text-white">{person.role}</p>
                       <ul role="list" className="flex space-x-5">
                       {person.twitterUrl!=='#'&&<li>
                         <a target='_blank' rel="noreferrer" href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
