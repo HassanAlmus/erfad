@@ -193,8 +193,8 @@ export const people = [
     email: 'talahjalal@gmail.com'
   },
   {
-    name: 'Roiyah Bassam',
-    nameAr: 'رؤيا بسام',
+    name: 'Roiyah Bait-al-Mal',
+    nameAr: 'رؤيا بيت المال',
     role: 'Content Writer',
     roleAr: 'كاتبة محتوى',
     imageUrl:
@@ -229,8 +229,8 @@ export const people = [
     email: 'alqahtaniassaf@gmail.com'
   },
   {
-    name: 'Joud Shudayyid',
-    nameAr: 'جود شديد',
+    name: 'Jouri Shudayyid',
+    nameAr: 'جوري شديد',
     role: 'Translator',
     roleAr: 'مترجمة',
     imageUrl:
