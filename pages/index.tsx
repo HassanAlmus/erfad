@@ -101,11 +101,10 @@ export const people = [
     nameAr: 'جود  الفاضل',
     role: 'Riyadh Regional Officer',
     roleAr: 'مديرة الرياض الإقليمية',
-    imageUrl:
-      '#',
+    imageUrl: 'https://cdn.discordapp.com/attachments/852672256977928224/980157935160262656/PHOTO-2022-05-28-15-54-07.jpg',
     twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/jood-alfadhel-8703a0161',
+    instagramUrl: 'https://instagram.com/jood_af?igshid=NmZiMzY2Mjc=',
     email: 'joodaf@gmail.com'
   },
   {
@@ -114,7 +113,7 @@ export const people = [
     role: 'Al-Ahsaa Regional Officer',
     roleAr: 'مديرة الأحساء الإقليمية',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/980161040216096778/Screenshot_2022-05-28_202850.png',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/fatimahalhejji',
     instagramUrl: 'https://instagram.com/x.feto?igshid=YmMyMTA2M2Y=',
@@ -138,7 +137,7 @@ export const people = [
     role: 'Public Relations Manager',
     roleAr: 'مدير علاقات عامة',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/980161664248860733/Screenshot_2022-05-28_203154.png',
     twitterUrl: 'http://www.twitter.com/MoayadAlismail',
     linkedinUrl: '#',
     instagramUrl: '#',
@@ -150,7 +149,7 @@ export const people = [
     role: 'R&D Director',
     roleAr: 'مدير قسم البحث والتخطيط',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/980163727951278191/My_project_2.png',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/hussain-al-beshri-87baba206',
     instagramUrl: 'https://www.instagram.com/hussainab15/',
@@ -162,10 +161,10 @@ export const people = [
     role: 'HR Manager',
     roleAr: 'مسؤولة الموارد البشرية',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/980158778014072932/PHOTO-2022-05-27-18-44-08.jpg',
     twitterUrl: '#',
     linkedinUrl: '#',
-    instagramUrl: '#',
+    instagramUrl: 'https://instagram.com/dai_shojaa?igshid=NmZiMzY2Mjc=',
     email: 'daialishojaa@gmail.com'
   },
   {
@@ -210,7 +209,7 @@ export const people = [
     role: 'Content Writer',
     roleAr: 'كاتبة محتوى',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/980162427167596604/Screenshot_2022-05-28_203321.png',
     twitterUrl: '#',
     linkedinUrl: '#',
     instagramUrl: 'https://www.instagram.com/dim_randoms/',
@@ -246,7 +245,7 @@ export const people = [
     role: 'Graphic Designer',
     roleAr: 'مصممة جرافيك',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/980164277522558986/image-removebg-preview_5.png',
     twitterUrl: '#',
     linkedinUrl: '#',
     instagramUrl: 'https://instagram.com/shahad.abdullah31?igshid=YmMyMTA2M2Y=',
