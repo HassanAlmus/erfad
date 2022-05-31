@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { Fragment } from 'react'
+import { Fragment, useState } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { StarIcon, SparklesIcon, CheckIcon, InformationCircleIcon, QuestionMarkCircleIcon, AtSymbolIcon, UserCircleIcon, SpeakerphoneIcon} from '@heroicons/react/outline'
@@ -272,9 +272,10 @@ export const Footer =()=> (
 )
 
 const Home: NextPage = () => {
+  const [show, setShow] = useState(true)
   return (
     <>
-    <div className="bg-blue">
+    {show&&<div className="bg-blue">
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
           <div className="w-0 flex-1 flex items-center">
@@ -298,6 +299,7 @@ const Home: NextPage = () => {
             <button
               type="button"
               className="-mr-1 flex p-2 rounded-md hover:bg-darkblue focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
+              onClick={()=>setShow(false)}
             >
               <span className="sr-only">Dismiss</span>
               <XIcon className="h-6 w-6 text-white" aria-hidden="true" />
@@ -305,7 +307,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div>}
     <div className="relative bg-gray-50 overflow-hidden">
       <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
         <div className="relative h-full max-w-7xl mx-auto">
