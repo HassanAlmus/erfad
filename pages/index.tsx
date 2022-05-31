@@ -282,7 +282,7 @@ const Home: NextPage = () => {
               <SpeakerphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              {/* <span className="md:hidden">Apply for Erfad Membership Now! | قدم على عضوية إرفاد الآن!</span> */}
+              <span className="md:hidden">Applications Open! | التقديم مفتوح!</span> 
               <span className="hidden md:inline">Membership Applications Are Open! | التقديم على العضوية مفتوح</span>
             </p>
           </div>
