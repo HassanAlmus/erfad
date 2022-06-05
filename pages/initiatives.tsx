@@ -126,10 +126,10 @@ const Members: NextPage = () => (
         </h2>
         <div className="mt-6 text-gray-500 space-y-6">
             <p className="text-xl text-right">
-            لأننا نؤمن بأن البيئة مسؤولية الجميع، وأن المتأثر الوحيد سلبًا في هذه المعادلة هم البشر وحدهم، وأن ما تحتاجه البيئة بحق هو "أفعال"و "قرارات"و "مبادرات"،بمناسبة اليوم العالمي للبيئة، الموافق 5 يونيو؛ تعلن منظمة إِرفاد عن إطلاقها  بالتعاون مع شركائها لمبادرة #نتحمل_المسؤولية، سعيًا منهم لنشر عادات سهلة التطبيق ، كبيرة الأثر.
+            لأننا نؤمن بأن البيئة مسؤولية الجميع، وأن المتأثر الوحيد سلبًا في هذه المعادلة هم البشر وحدهم، وأن ما تحتاجه البيئة بحق هو &#34;أفعال&#34;و &#34;قرارات&#34;و &#34;مبادرات&#34;،بمناسبة اليوم العالمي للبيئة، الموافق 5 يونيو؛ تعلن منظمة إِرفاد عن إطلاقها  بالتعاون مع شركائها لمبادرة #نتحمل_المسؤولية، سعيًا منهم لنشر عادات سهلة التطبيق ، كبيرة الأثر.
             </p>
             <p className="text-xl leading-7">
-            Because we believe that the environment is everyone's responsibility, that the only people who are negatively affected by this problem are humans, and that what the environment truly needs are "actions" and "decisions," Erfad has collaborated with its partners to launch the "#Taking_Responsibility" movement on the occasion of World Environment Day, in an effort to spread simple and effective habits.
+            Because we believe that the environment is everyone&#39;s responsibility, that the only people who are negatively affected by this problem are humans, and that what the environment truly needs are &#34;actions&#34; and &#34;decisions,&#34; Erfad has collaborated with its partners to launch the &#34;#TakingResponsibility&#34; movement on the occasion of World Environment Day, in an effort to spread simple and effective habits.
             </p>
         </div>
         </div>
@@ -151,49 +151,57 @@ const Members: NextPage = () => (
 <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-        <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+        <div className="col-span-1 flex [flex-direction:column] [align-items:center] align-middle py-8 px-8 bg-gray-50">
             <img
-              className="max-h-12"
+              className="max-h-14"
               src="/icon.png"
               alt="Erfad"
             />
+            <h3 className='mt-5'>Erfad | إرفاد</h3>
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/nuqsh.png"
               alt="Nuqsh"
             />
+            <h3 className='mt-5'>Nuqsh | نقش</h3>
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
             <img className="max-h-12" src="/wasela.png" alt="Wasela" />
+            <h3 className='mt-5'>Waselah | وسيلة</h3>
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
             <img className="max-h-12" src="/atroqah.png" alt="Atroqah" />
+            <h3 className='mt-5'>Atroqah | أطرقة</h3>
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
             <img className="max-h-12" src="/bloomers.png" alt="Bloomers" />
+            <h3 className='mt-5'>Bloomers</h3>
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/botanical.png"
               alt="Botanical"
             />
+            <h3 className='mt-5'>Batonical Gardens</h3>
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/medizine.png"
               alt="Medizine"
             />
+            <h3 className='mt-5'>MediZine | مديزين</h3>
           </div>
-          <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/viola.png"
               alt="Viola"
             />
+            <h3 className='mt-5'>Viola | فيولا</h3>
           </div>
         </div>
       </div>
