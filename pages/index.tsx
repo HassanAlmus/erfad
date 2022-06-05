@@ -6,7 +6,8 @@ import { StarIcon, SparklesIcon, CheckIcon, InformationCircleIcon, QuestionMarkC
 
 const navigation = [
   { name: 'Leadership | القادة', href: '#leadership' },
-  { name: 'Members | الأعضاء', href: '/members' }
+  { name: 'Members | الأعضاء', href: '/members' },
+  { name: 'Initiatives | المبادرات', href: '/initiatives' }
 ] 
 
 const navigation2 = [
