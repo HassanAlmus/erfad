@@ -88,7 +88,7 @@ const Members: NextPage = () => (
                       </div>
 
                       <footer className="mt-4">
-                        <p className="text-base font-semibold text-rose-200">Hellen Keller</p>
+                        <p className="text-base font-semibold text-rose-200">هلن كلر</p>
                       </footer>
                     </blockquote>
             <blockquote className="mt-8">
