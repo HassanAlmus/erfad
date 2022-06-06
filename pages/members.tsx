@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import { people, Footer } from '.'
 import { UserCircleIcon, AtSymbolIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
-import {Head} from 'next/document'
+import Head from 'next/head'
 
 const Members: NextPage = () => (
     <>
