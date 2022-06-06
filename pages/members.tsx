@@ -2,9 +2,13 @@ import type { NextPage } from 'next'
 import { people, Footer } from '.'
 import { UserCircleIcon, AtSymbolIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
+import {Head} from 'next/document'
 
 const Members: NextPage = () => (
     <>
+    <Head>
+       <title>Erfad Members | أعاضاء إرفاد</title>
+    </Head>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 my-6">
         <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
         <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">

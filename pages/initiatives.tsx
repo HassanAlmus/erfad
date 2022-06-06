@@ -2,22 +2,18 @@ import type { NextPage } from 'next'
 import { people, Footer } from '.'
 import { UserCircleIcon, AtSymbolIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
+import {Head} from 'next/document'
 
 const stats = [
-    { label: 'المؤسسات المشاركة', value: '8' },
-    { label: 'Participating Institutions', value: '8' },
-  ]
-  const logos = [
-    { name: 'Transistor', url: 'https://tailwindui.com/img/logos/transistor-logo-gray-400.svg' },
-    { name: 'Mirage', url: 'https://tailwindui.com/img/logos/mirage-logo-gray-400.svg' },
-    { name: 'Tuple', url: 'https://tailwindui.com/img/logos/tuple-logo-gray-400.svg' },
-    { name: 'Laravel', url: 'https://tailwindui.com/img/logos/laravel-logo-gray-400.svg' },
-    { name: 'StaticKit', url: 'https://tailwindui.com/img/logos/statickit-logo-gray-400.svg' },
-    { name: 'Workcation', url: 'https://tailwindui.com/img/logos/workcation-logo-gray-400.svg' },
+    { label: 'الشركاء', value: '8' },
+    { label: 'Partners', value: '8' },
   ]
 
 const Members: NextPage = () => (
     <>
+    <Head>
+       <title>Erfad Initiatives | مبادرات إرفاد</title>
+    </Head>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 my-6">
         <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
         <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
@@ -151,15 +147,15 @@ const Members: NextPage = () => (
 <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
-        <div className="col-span-1 flex [flex-direction:column] [align-items:center] align-middle py-8 px-8 bg-gray-50">
+        <div className="col-span-1 flex flex-col items-center align-middle py-8 px-8 bg-gray-50">
             <img
               className="max-h-14"
-              src="/icon.png"
+              src="/sed.png"
               alt="Erfad"
             />
-            <h3 className='mt-5'>Erfad | إرفاد</h3>
+            <h3 className='mt-5'>SED | سدرة</h3>
           </div>
-          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex flex-col items-center py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/nuqsh.png"
@@ -167,19 +163,19 @@ const Members: NextPage = () => (
             />
             <h3 className='mt-5'>Nuqsh | نقش</h3>
           </div>
-          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex flex-col items-center py-8 px-8 bg-gray-50">
             <img className="max-h-12" src="/wasela.png" alt="Wasela" />
             <h3 className='mt-5'>Waselah | وسيلة</h3>
           </div>
-          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex flex-col items-center py-8 px-8 bg-gray-50">
             <img className="max-h-12" src="/atroqah.png" alt="Atroqah" />
             <h3 className='mt-5'>Atroqah | أطرقة</h3>
           </div>
-          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex flex-col items-center py-8 px-8 bg-gray-50">
             <img className="max-h-12" src="/bloomers.png" alt="Bloomers" />
             <h3 className='mt-5'>Bloomers</h3>
           </div>
-          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex flex-col items-center py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/botanical.png"
@@ -187,7 +183,7 @@ const Members: NextPage = () => (
             />
             <h3 className='mt-5'>Batonical Gardens</h3>
           </div>
-          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex flex-col items-center py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/medizine.png"
@@ -195,7 +191,7 @@ const Members: NextPage = () => (
             />
             <h3 className='mt-5'>MediZine | مديزين</h3>
           </div>
-          <div className="col-span-1 flex [flex-direction:column] [align-items:center] py-8 px-8 bg-gray-50">
+          <div className="col-span-1 flex flex-col items-center py-8 px-8 bg-gray-50">
             <img
               className="max-h-12"
               src="/viola.png"
