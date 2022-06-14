@@ -77,7 +77,7 @@ export const people = [
     name: 'Wareef Alghaylani',
     nameAr: 'وريف الغيلاني',
     role: 'Exec Creatiev Director, Founding Member',
-    roleAr: 'عضو مؤسس، الرئيس التنفيذي للجنة التسويق',
+    roleAr: 'عضو مؤسس، المدير التنفيذي الإبداعي',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/986284599338467368/Screenshot_2022-06-14_180225.png',
     twitterUrl: 'https://twitter.com/wareef_p?s=21',
