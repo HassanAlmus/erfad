@@ -76,7 +76,7 @@ export const people = [
   {
     name: 'Wareef Alghaylani',
     nameAr: 'وريف الغيلاني',
-    role: 'Exec Creatiev Director, Founding Member',
+    role: 'Exec Creative Director, Founding Member',
     roleAr: 'عضو مؤسس، المدير التنفيذي الإبداعي',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/986284599338467368/Screenshot_2022-06-14_180225.png',
@@ -88,7 +88,7 @@ export const people = [
   {
     name: 'Retal Jadaa',
     nameAr: 'ريتال جدع',
-    role: 'Exec Direvtore of Operations, Founding Member',
+    role: 'Exec Director of Operations, Founding Member',
     roleAr: 'عضو مؤسس، المدير التنفيذي للمشاريع',
     imageUrl:
       '#',
