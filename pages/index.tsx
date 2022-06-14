@@ -64,7 +64,7 @@ export const people = [
   {
     name: 'Layan Noorwali',
     nameAr: 'ليان نورولي',
-    role: 'President, Co-Founder',
+    role: 'President, Founding Member',
     roleAr: 'عضو مؤسس، المدير العام',
     imageUrl:
       '#',
@@ -76,10 +76,10 @@ export const people = [
   {
     name: 'Wareef Alghaylani',
     nameAr: 'وريف الغيلاني',
-    role: 'Chief Marketing Officer, Co-Founder',
+    role: 'Exec Creatiev Director, Founding Member',
     roleAr: 'عضو مؤسس، الرئيس التنفيذي للجنة التسويق',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/986284599338467368/Screenshot_2022-06-14_180225.png',
     twitterUrl: 'https://twitter.com/wareef_p?s=21',
     linkedinUrl: 'http://linkedin.com/in/wareef-alghaylani',
     instagramUrl: '#',
@@ -88,7 +88,7 @@ export const people = [
   {
     name: 'Retal Jadaa',
     nameAr: 'ريتال جدع',
-    role: 'CEO, Co-Founder',
+    role: 'Exec Direvtore of Operations, Founding Member',
     roleAr: 'عضو مؤسس، المدير التنفيذي للمشاريع',
     imageUrl:
       '#',
