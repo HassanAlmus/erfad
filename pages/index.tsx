@@ -60,6 +60,8 @@ const navigation2 = [
   }
 ]
 
+//
+
 export const people = [
   {
     name: 'Layan Noorwali',
