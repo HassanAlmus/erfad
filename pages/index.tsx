@@ -278,7 +278,7 @@ const Home: NextPage = () => {
   const [show, setShow] = useState(true)
   return (
     <>
-      {show&&<div className="bg-blue">
+      {/* {show&&<div className="bg-blue">
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
           <div className="w-0 flex-1 flex items-center">
@@ -310,7 +310,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>}
+    </div>} */}
     <div className="relative bg-gray-50 overflow-hidden">
       <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
         <div className="relative h-full max-w-7xl mx-auto">
