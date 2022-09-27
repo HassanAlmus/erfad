@@ -7,7 +7,7 @@ import Head from 'next/head'
 const Members: NextPage = () => (
     <>
     <Head>
-       <title>Erfad Members | أعاضاء إرفاد</title>
+       <title>Erfad Members | أعضاء إرفاد</title>
     </Head>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 my-6">
         <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
