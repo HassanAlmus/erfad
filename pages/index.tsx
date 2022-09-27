@@ -81,7 +81,7 @@ export const people = [
     role: 'Exec Creative Director, Founding Member',
     roleAr: 'عضو مؤسس، المدير التنفيذي الإبداعي',
     imageUrl:
-      'https://cdn.discordapp.com/attachments/852672256977928224/986284599338467368/Screenshot_2022-06-14_180225.png',
+      'https://cdn.discordapp.com/attachments/852672256977928224/1024154895319846952/2022-09-27_06.05.26.jpg',
     twitterUrl: 'https://twitter.com/wareef_p?s=21',
     linkedinUrl: 'http://linkedin.com/in/wareef-alghaylani',
     instagramUrl: '#',
@@ -278,7 +278,7 @@ const Home: NextPage = () => {
   const [show, setShow] = useState(true)
   return (
     <>
-      {/* {show&&<div className="bg-blue">
+      {show&&<div className="bg-blue">
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
           <div className="w-0 flex-1 flex items-center">
@@ -286,16 +286,16 @@ const Home: NextPage = () => {
               <SpeakerphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">Applications Open! | التقديم مفتوح!</span> 
-              <span className="hidden md:inline">Membership Applications Are Open! | التقديم على العضوية مفتوح</span>
+              <span className="md:hidden">Tell us anything! | في بالك شي؟</span> 
+              <span className="hidden md:inline">Tell us anything! | في بالك شي؟</span>
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
             <a
-              href="https://forms.gle/fv77r9ALQv22axgA6"
+              href="https://forms.gle/bywP7UaFAq6bhDFk8"
               className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-darkblue bg-white hover:bg-indigo-50"
             >
-             Apply | قدّم
+             Contact | تواصل
             </a>
           </div>
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
@@ -310,7 +310,7 @@ const Home: NextPage = () => {
           </div>
         </div>
       </div>
-    </div>} */}
+    </div>} 
     <div className="relative bg-gray-50 overflow-hidden">
       <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
         <div className="relative h-full max-w-7xl mx-auto">
