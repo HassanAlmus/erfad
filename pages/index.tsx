@@ -286,8 +286,8 @@ const Home: NextPage = () => {
               <SpeakerphoneIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">Tell us anything! | في بالك شي؟</span> 
-              <span className="hidden md:inline">Tell us anything! | في بالك شي؟</span>
+              <span className="md:hidden">How can I help? | كيف أساعدك؟</span> 
+              <span className="hidden md:inline">How can I help? | كيف أساعدك؟</span> 
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
