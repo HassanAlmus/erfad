@@ -98,6 +98,18 @@ export const people = [
     email: 'retaljadaa@hotmail.com'
   },
   {
+    name: 'Retaj Assulami',
+    nameAr: 'رتاج السلمي',
+    role: 'Former President, Founding Member',
+    roleAr: 'عضو مؤسس، الرئيس السابق',
+    imageUrl:
+      'https://cdn.discordapp.com/attachments/852672256977928224/1052245134730854490/672c83d8-f761-46bc-8f96-bd82238eba0b.jpg',
+    twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/retaj-a-03b4bb216',
+    instagramUrl: '#',
+    email: 'retajaasulami@gmail.com'
+  },
+ /*  {
     name: 'Jood Alfadhel',
     nameAr: 'جود  الفاضل',
     role: 'Riyadh Regional Officer',
@@ -107,8 +119,8 @@ export const people = [
     linkedinUrl: 'https://www.linkedin.com/in/jood-alfadhel-8703a0161',
     instagramUrl: 'https://instagram.com/jood_af?igshid=NmZiMzY2Mjc=',
     email: 'joodaf@gmail.com'
-  },
-  {
+  }, */
+  /* {
     name: 'Fatimah Alhejji',
     nameAr: 'فاطمة الحجي',
     role: 'Al-Ahsaa Regional Officer',
@@ -119,8 +131,8 @@ export const people = [
     linkedinUrl: 'https://www.linkedin.com/in/fatimahalhejji',
     instagramUrl: 'https://instagram.com/x.feto?igshid=YmMyMTA2M2Y=',
     email: 'ifetoali@gmail.com'
-  },
-  {
+  }, */
+/*   {
     name: 'Amr Almanjnouni',
     nameAr: 'عمرو المجنوني',
     role: 'Project Manager',
@@ -131,8 +143,8 @@ export const people = [
     linkedinUrl: '#',
     instagramUrl: '#',
     email: 'amr.almajnouni@gmail.com'
-  },
-  {
+  }, */
+  /* {
     name: 'Moayad Aliasmail',
     nameAr: 'مؤيد الإسماعيل',
     role: 'Public Relations Manager',
@@ -143,7 +155,7 @@ export const people = [
     linkedinUrl: '#',
     instagramUrl: '#',
     email: 'masmoayad@gmail.com'
-  },
+  }, */
   {
     name: 'Hussein Al-Beshri',
     nameAr: 'حسين البشري',
@@ -162,7 +174,7 @@ export const people = [
     role: 'HR Manager',
     roleAr: 'مسؤولة الموارد البشرية',
     imageUrl:
-      'https://cdn.discordapp.com/attachments/852672256977928224/980158778014072932/PHOTO-2022-05-27-18-44-08.jpg',
+      'https://cdn.discordapp.com/attachments/852672256977928224/1052259972727193672/image.png',
     twitterUrl: '#',
     linkedinUrl: '#',
     instagramUrl: 'https://instagram.com/dai_shojaa?igshid=NmZiMzY2Mjc=',
@@ -198,7 +210,7 @@ export const people = [
     role: 'Content Writer',
     roleAr: 'كاتبة محتوى',
     imageUrl:
-      '#',
+      'https://cdn.discordapp.com/attachments/852672256977928224/1052260171121958912/image.png',
     twitterUrl: '#',
     linkedinUrl: '#',
     instagramUrl: 'https://instagram.com/roiyahbassam?igshid=YmMyMTA2M2Y=',
@@ -251,7 +263,235 @@ export const people = [
     linkedinUrl: '#',
     instagramUrl: 'https://instagram.com/shahad.abdullah31?igshid=YmMyMTA2M2Y=',
     email: 'shahad.hamadah2005@gmail.com'
-  }
+  },
+  {
+    name: 'Sarah Altobaishi',
+    nameAr: 'سارة الطبيشي',
+    role: 'WAITING',
+    roleAr: 'مساعدة رئيسة لجنة المشاريع',
+    imageUrl:
+      'https://media.discordapp.net/attachments/852672256977928224/1052258902143672360/image.png',
+    twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/sara-altobaishi-8310ba236',
+    instagramUrl: '#',
+    email: 'sarahani8@hotmail.com'
+  },
+  {
+    name: 'Raneem Alghamdi',
+    nameAr: 'رنيم الغامدي',
+    role: 'WAITING',
+    roleAr: 'مسؤولة مشاريع مكة المكرمة',
+    imageUrl:
+      'https://cdn.discordapp.com/attachments/852672256977928224/1052259328301748224/image.png',
+    twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/raneem-alaqeel-971693217/',
+    instagramUrl: 'https://www.instagram.com/xane2m/',
+    email: 'raneem-alghamdi06@hotmail.com'
+  },
+  {
+    name: 'Mohammed Feedah',
+    nameAr: 'محمد فيده',
+    role: 'WAITING',
+    roleAr: 'رئيس لجنة الموارد البشرية',
+    imageUrl:
+      'https://cdn.discordapp.com/attachments/852672256977928224/1052259591930519613/image.png',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'mohammedf9910@gmail.com'
+  },
+  {
+    name: 'Haifaa Al-Hussain',
+    nameAr: 'هيفاء آل حسين',
+    role: 'WAITING',
+    roleAr: 'مسؤولة موارد بشرية',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: '699haifa27816@gmail.com'
+  },
+  {
+    name: 'Razaan Al-Amoudi',
+    nameAr: 'رزان العامودي',
+    role: 'WAITING',
+    roleAr: 'نائبة مدير لجنة التطوير',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Rozyamoudi@gmail.com'
+  },
+  {
+    name: 'Nawaf Alakel',
+    nameAr: 'نواف محمد العقل',
+    role: 'WAITING',
+    roleAr: 'رئيس لجنة إدارة و صناعة المحتوى',
+    imageUrl:
+      '#',
+    twitterUrl: 'https://twitter.com/NawafAlakel',
+    linkedinUrl: 'https://www.linkedin.com/in/nawaf-m-alakel-b6823a219/ar?trk=people-guest_people_search-card&originalSubdomain=sa',
+    instagramUrl: 'https://www.instagram.com/greytheprofessional/',
+    email: 'arbiancobra@gmail.com'
+  },
+  {
+    name: 'Joud Al-Zahrani',
+    nameAr: 'جود الزهراني',
+    role: 'WAITING',
+    roleAr: 'عضو من اعظاء الموارد البشرية',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'joodprofacc@gmail.com'
+  },
+  {
+    name: 'Jude Aljizawi',
+    nameAr: 'جود الجيزاوي',
+    role: 'WAITING',
+    roleAr: 'مسؤولة تسويق',
+    imageUrl:
+      'https://cdn.discordapp.com/attachments/852672256977928224/1052259743583961198/image.png',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: 'https://www.instagram.com/18asd1/',
+    email: 'Jude.aljizawi@gmail.com'
+  },
+  {
+    name: 'Fatima Alarfaj',
+    nameAr: 'فاطمة العرفج',
+    role: 'Graphic designer',
+    roleAr: 'مصممج جرافيك',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Fatimaabdullahalarfaj@gmail.com'
+  },
+  {
+    name: 'Fatima Alarfaj',
+    nameAr: 'فاطمة العرفج',
+    role: 'Graphic designer',
+    roleAr: 'مصممج جرافيك',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Fatimaabdullahalarfaj@gmail.com'
+  },
+  {
+    name: 'Haneen Alanazi',
+    nameAr: 'حنين العنزي',
+    role: 'Social Media Manager',
+    roleAr: 'مسؤول مواقع تواصل اجتماعي',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'haneenalanazi.f9@gmail.com'
+  },
+  {
+    name: 'Yazan Ali-Shamrani',
+    nameAr: 'يزن الشمراني',
+    role: 'WAITING',
+    roleAr: 'معلق صوتي',
+    imageUrl:
+      'https://cdn.discordapp.com/attachments/852672256977928224/1052260382477135912/image.png',
+    twitterUrl: '#',
+    linkedinUrl: 'https://linktr.ee/Yazan.shamrani',
+    instagramUrl: '#',
+    email: 'yazan.shamrani717@gmail.com'
+  },
+  {
+    name: 'Anas Alsefri',
+    nameAr: 'أنس السفري',
+    role: 'WAITING',
+    roleAr: 'مدير مشروع في لجنة المشاريع',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Analsefri@gmail.com'
+  },
+  {
+    name: 'Daniah Bas-hi',
+    nameAr: 'دانية باصهي',
+    role: 'WAITING',
+    roleAr: 'مسؤولة سوشل ميديا',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: 'https://www.linkedin.com/in/dania-basahi-0a8a28209',
+    instagramUrl: '#',
+    email: 'Daniamoh05@gmail.com'
+  },
+  {
+    name: 'Alanood Alqahtani',
+    nameAr: 'العنود القحطاني',
+    role: 'WAITING',
+    roleAr: 'كاتبة محتوى',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: 'https://www.instagram.com/aniixalq/',
+    email: 'alanoodalqahtani66@gmail.com'
+  },
+  {
+    name: 'Ameen Al-Hachem',
+    nameAr: 'امين آل هاشم',
+    role: 'WAITING',
+    roleAr: 'التطوير',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Ameenalhashem13@gmail.com'
+  },
+  {
+    name: 'Aryam Al-Shehri',
+    nameAr: 'أريام الشهري',
+    role: 'Graphic designer',
+    roleAr: 'مصممج جرافيك',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Aryam91900@gmail.com'
+  },
+  {
+    name: 'Fajer Alkhulaifi',
+    nameAr: 'فجر الخليفي',
+    role: 'WAITING',
+    roleAr: 'مسؤولة مشاريع الرياض',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'fjooore1010@hotmail.com'
+  },
+  {
+    name: 'Talal Alqahtani',
+    nameAr: 'طلال القحطاني',
+    role: 'PR Manager',
+    roleAr: 'مدير العلاقات العامة',
+    imageUrl:
+      '#',
+    twitterUrl: 'https://twitter.com/Talal_Al_Bishri',
+    linkedinUrl: 'https://www.linkedin.com/in/talal-alqahtani-9976a623b',
+    instagramUrl: 'https://www.instagram.com/xl.iyt/',
+    email: 'talloole@gmail.com'
+  },
 ]
 
 export const Footer =()=> (
@@ -688,7 +928,7 @@ const Home: NextPage = () => {
           </div>
           <div className="lg:col-span-2">
             <ul role="list" className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
-              {people.slice(0,3).map((person) => (
+              {people.slice(0,4).map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center space-x-4 lg:space-x-6">
                     {person.imageUrl==='#'?<UserCircleIcon className="w-16 h-16 rounded-full lg:w-20 lg:h-20 stroke-gray-300"/>:<img className="w-16 h-16 rounded-full lg:w-20 lg:h-20" src={person.imageUrl} alt="" />}
