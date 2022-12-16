@@ -159,8 +159,8 @@ export const people = [
   {
     name: 'Hussein Al-Beshri',
     nameAr: 'حسين البشري',
-    role: 'R&D Director',
-    roleAr: 'مدير قسم البحث والتخطيط',
+    role: 'Head of Development',
+    roleAr: 'رئيس قسم التطوير',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/980163727951278191/My_project_2.png',
     twitterUrl: '#',
@@ -172,7 +172,7 @@ export const people = [
     name: 'Dai Shojaa',
     nameAr: 'ضي شجاع',
     role: 'HR Manager',
-    roleAr: 'مسؤولة الموارد البشرية',
+    roleAr: 'مسؤولة موارد بشرية',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052259972727193672/image.png',
     twitterUrl: '#',
@@ -255,8 +255,8 @@ export const people = [
   {
     name: 'Shahad Alhamada',
     nameAr: 'شهد الحمادة',
-    role: 'Graphic Designer',
-    roleAr: 'مصممة جرافيك',
+    role: 'Head of Graphic Design',
+    roleAr: 'رئيسة قسم التصميم',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/981172862377406514/bcfd6473-bb30-49f1-942d-6b1c5402b86a.jpg',
     twitterUrl: '#',
@@ -267,8 +267,8 @@ export const people = [
   {
     name: 'Sarah Altobaishi',
     nameAr: 'سارة الطبيشي',
-    role: 'WAITING',
-    roleAr: 'مساعدة رئيسة لجنة المشاريع',
+    role: 'VP of the Operations',
+    roleAr: 'نائبة رئيسة قسم المشاريع',
     imageUrl:
       'https://media.discordapp.net/attachments/852672256977928224/1052258902143672360/image.png',
     twitterUrl: '#',
@@ -279,7 +279,7 @@ export const people = [
   {
     name: 'Raneem Alghamdi',
     nameAr: 'رنيم الغامدي',
-    role: 'WAITING',
+    role: 'Mecca Projects Manager',
     roleAr: 'مسؤولة مشاريع مكة المكرمة',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052259328301748224/image.png',
@@ -291,7 +291,7 @@ export const people = [
   {
     name: 'Mohammed Feedah',
     nameAr: 'محمد فيده',
-    role: 'WAITING',
+    role: 'Head of HR',
     roleAr: 'رئيس لجنة الموارد البشرية',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052259591930519613/image.png',
@@ -303,7 +303,7 @@ export const people = [
   {
     name: 'Haifaa Al-Hussain',
     nameAr: 'هيفاء آل حسين',
-    role: 'WAITING',
+    role: 'HR Manager',
     roleAr: 'مسؤولة موارد بشرية',
     imageUrl:
       '#',
@@ -315,7 +315,7 @@ export const people = [
   {
     name: 'Razaan Al-Amoudi',
     nameAr: 'رزان العامودي',
-    role: 'WAITING',
+    role: 'VP of Development',
     roleAr: 'نائبة مدير لجنة التطوير',
     imageUrl:
       '#',
@@ -327,8 +327,8 @@ export const people = [
   {
     name: 'Nawaf Alakel',
     nameAr: 'نواف محمد العقل',
-    role: 'WAITING',
-    roleAr: 'رئيس لجنة إدارة و صناعة المحتوى',
+    role: 'Head of Content Management',
+    roleAr: 'رئيس قسم إدارة المحتوى',
     imageUrl:
       '#',
     twitterUrl: 'https://twitter.com/NawafAlakel',
@@ -339,8 +339,8 @@ export const people = [
   {
     name: 'Joud Al-Zahrani',
     nameAr: 'جود الزهراني',
-    role: 'WAITING',
-    roleAr: 'عضو من اعظاء الموارد البشرية',
+    role: 'HR Manager',
+    roleAr: 'مسؤلة الموارد البشرية',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -351,7 +351,7 @@ export const people = [
   {
     name: 'Jude Aljizawi',
     nameAr: 'جود الجيزاوي',
-    role: 'WAITING',
+    role: 'Marketing Officer',
     roleAr: 'مسؤولة تسويق',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052259743583961198/image.png',
@@ -363,20 +363,8 @@ export const people = [
   {
     name: 'Fatima Alarfaj',
     nameAr: 'فاطمة العرفج',
-    role: 'Graphic designer',
-    roleAr: 'مصممج جرافيك',
-    imageUrl:
-      '#',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: '#',
-    email: 'Fatimaabdullahalarfaj@gmail.com'
-  },
-  {
-    name: 'Fatima Alarfaj',
-    nameAr: 'فاطمة العرفج',
-    role: 'Graphic designer',
-    roleAr: 'مصممج جرافيك',
+    role: 'Graphic Designer',
+    roleAr: 'مصممة جرافيك',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -399,7 +387,7 @@ export const people = [
   {
     name: 'Yazan Ali-Shamrani',
     nameAr: 'يزن الشمراني',
-    role: 'WAITING',
+    role: 'Voice Over',
     roleAr: 'معلق صوتي',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052260382477135912/image.png',
@@ -411,8 +399,8 @@ export const people = [
   {
     name: 'Anas Alsefri',
     nameAr: 'أنس السفري',
-    role: 'WAITING',
-    roleAr: 'مدير مشروع في لجنة المشاريع',
+    role: 'Project Manager',
+    roleAr: 'مدير مشروع',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -423,7 +411,7 @@ export const people = [
   {
     name: 'Daniah Bas-hi',
     nameAr: 'دانية باصهي',
-    role: 'WAITING',
+    role: 'Social Media Manager',
     roleAr: 'مسؤولة سوشل ميديا',
     imageUrl:
       '#',
@@ -435,7 +423,7 @@ export const people = [
   {
     name: 'Alanood Alqahtani',
     nameAr: 'العنود القحطاني',
-    role: 'WAITING',
+    role: 'Content Writer',
     roleAr: 'كاتبة محتوى',
     imageUrl:
       '#',
@@ -447,8 +435,8 @@ export const people = [
   {
     name: 'Ameen Al-Hachem',
     nameAr: 'امين آل هاشم',
-    role: 'WAITING',
-    roleAr: 'التطوير',
+    role: 'Development Officer',
+    roleAr: 'مسؤول تطوير',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -459,7 +447,7 @@ export const people = [
   {
     name: 'Aryam Al-Shehri',
     nameAr: 'أريام الشهري',
-    role: 'Graphic designer',
+    role: 'Graphic Designer',
     roleAr: 'مصممج جرافيك',
     imageUrl:
       '#',
@@ -471,7 +459,7 @@ export const people = [
   {
     name: 'Fajer Alkhulaifi',
     nameAr: 'فجر الخليفي',
-    role: 'WAITING',
+    role: 'Rriyadh Projects Manager',
     roleAr: 'مسؤولة مشاريع الرياض',
     imageUrl:
       '#',
@@ -483,7 +471,7 @@ export const people = [
   {
     name: 'Talal Alqahtani',
     nameAr: 'طلال القحطاني',
-    role: 'PR Manager',
+    role: 'Head of PR',
     roleAr: 'مدير العلاقات العامة',
     imageUrl:
       '#',
