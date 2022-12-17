@@ -101,7 +101,7 @@ export const people = [
     name: 'Retaj Assulami',
     nameAr: 'رتاج السلمي',
     role: 'Former President, Founding Member',
-    roleAr: 'ةعضوة مؤسسة، الرئيسة السابقة',
+    roleAr: 'عضوة مؤسسة، الرئيسة السابقة',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052245134730854490/672c83d8-f761-46bc-8f96-bd82238eba0b.jpg',
     twitterUrl: '#',
