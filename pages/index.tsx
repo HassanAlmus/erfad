@@ -65,7 +65,7 @@ export const people = [
     name: 'Layan Noorwali',
     nameAr: 'ليان نورولي',
     role: 'President, Founding Member',
-    roleAr: 'عضو مؤسس، المدير العام',
+    roleAr: 'عضوة مؤسسة، الرئيسة',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -77,7 +77,7 @@ export const people = [
     name: 'Wareef Alghaylani',
     nameAr: 'وريف الغيلاني',
     role: 'Exec Creative Director, Founding Member',
-    roleAr: 'عضو مؤسس، المدير التنفيذي الإبداعي',
+    roleAr: 'عضوة مؤسسة، المديرة التنفيذية الإبداعية',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1024154895319846952/2022-09-27_06.05.26.jpg',
     twitterUrl: 'https://twitter.com/wareef_p?s=21',
@@ -89,7 +89,7 @@ export const people = [
     name: 'Retal Jadaa',
     nameAr: 'ريتال جدع',
     role: 'Exec Director of Operations, Founding Member',
-    roleAr: 'عضو مؤسس، المدير التنفيذي للمشاريع',
+    roleAr: 'عضوة مؤسسة، المديرة التنفيذية للمشاريع',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1038467265374457888/PHOTO-2022-09-07-23-39-40.jpg',
     twitterUrl: 'https://twitter.com/retaljadaa?s=21&t=GF1bQsxBw82Z-8OJTrSYNQ',
@@ -101,7 +101,7 @@ export const people = [
     name: 'Retaj Assulami',
     nameAr: 'رتاج السلمي',
     role: 'Former President, Founding Member',
-    roleAr: 'عضو مؤسس، الرئيس السابق',
+    roleAr: 'ةعضوة مؤسسة، الرئيسة السابقة',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052245134730854490/672c83d8-f761-46bc-8f96-bd82238eba0b.jpg',
     twitterUrl: '#',
@@ -192,7 +192,7 @@ export const people = [
     instagramUrl: '#',
     email: 'hassanalmosapeeh@gmail.com'
   },
-  {
+/*   {
     name: 'Talah Jalal',
     nameAr: 'تالا جلال',
     role: 'Social Media Manager',
@@ -203,7 +203,7 @@ export const people = [
     linkedinUrl: '#',
     instagramUrl: '#',
     email: 'talahjalal@gmail.com'
-  },
+  }, */
   {
     name: 'Roiyah Bait-al-Mal',
     nameAr: 'رؤيا بيت المال',
@@ -240,7 +240,7 @@ export const people = [
     instagramUrl: 'https://www.instagram.com/invites/contact/?i=w2driehj59m3&utm_content=1vmto5l',
     email: 'alqahtaniassaf@gmail.com'
   },
-  {
+ /*  {
     name: 'Jouri Shudayyid',
     nameAr: 'جوري شديد',
     role: 'Translator',
@@ -251,7 +251,7 @@ export const people = [
     linkedinUrl: '#',
     instagramUrl: '#',
     email: 'jouri10sami@gmail.com'
-  },
+  }, */
   {
     name: 'Shahad Alhamada',
     nameAr: 'شهد الحمادة',
@@ -292,7 +292,7 @@ export const people = [
     name: 'Mohammed Feedah',
     nameAr: 'محمد فيده',
     role: 'Head of HR',
-    roleAr: 'رئيس لجنة الموارد البشرية',
+    roleAr: 'رئيس قسم الموارد البشرية',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052259591930519613/image.png',
     twitterUrl: '#',
@@ -316,7 +316,7 @@ export const people = [
     name: 'Razaan Al-Amoudi',
     nameAr: 'رزان العامودي',
     role: 'VP of Development',
-    roleAr: 'نائبة مدير لجنة التطوير',
+    roleAr: 'نائبة رئيس لجنة التطوير',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -340,7 +340,7 @@ export const people = [
     name: 'Joud Al-Zahrani',
     nameAr: 'جود الزهراني',
     role: 'HR Manager',
-    roleAr: 'مسؤلة الموارد البشرية',
+    roleAr: 'مسؤلة موارد بشرية',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -376,7 +376,7 @@ export const people = [
     name: 'Haneen Alanazi',
     nameAr: 'حنين العنزي',
     role: 'Social Media Manager',
-    roleAr: 'مسؤول مواقع تواصل اجتماعي',
+    roleAr: 'مسؤولة مواقع تواصل اجتماعي',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -411,8 +411,8 @@ export const people = [
   {
     name: 'Daniah Bas-hi',
     nameAr: 'دانية باصهي',
-    role: 'Social Media Manager',
-    roleAr: 'مسؤولة سوشل ميديا',
+    role: 'VP of Marketing',
+    roleAr: 'نائية قسم التسويق',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -423,8 +423,8 @@ export const people = [
   {
     name: 'Alanood Alqahtani',
     nameAr: 'العنود القحطاني',
-    role: 'Content Writer',
-    roleAr: 'كاتبة محتوى',
+    role: 'Content Creator',
+    roleAr: 'صانعة محتوى',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -448,7 +448,7 @@ export const people = [
     name: 'Aryam Al-Shehri',
     nameAr: 'أريام الشهري',
     role: 'Graphic Designer',
-    roleAr: 'مصممج جرافيك',
+    roleAr: 'مصممة جرافيك',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -916,7 +916,7 @@ const Home: NextPage = () => {
           </div>
           <div className="lg:col-span-2">
             <ul role="list" className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-12 sm:space-y-0 lg:gap-x-8">
-              {people.slice(0,4).map((person) => (
+              {people.slice(0,3).map((person) => (
                 <li key={person.name}>
                   <div className="flex items-center space-x-4 lg:space-x-6">
                     {person.imageUrl==='#'?<UserCircleIcon className="w-16 h-16 rounded-full lg:w-20 lg:h-20 stroke-gray-300"/>:<img className="w-16 h-16 rounded-full lg:w-20 lg:h-20" src={person.imageUrl} alt="" />}
