@@ -157,7 +157,7 @@ export const people = [
     email: 'masmoayad@gmail.com'
   }, */
   {
-    name: 'Hussein Al-Beshri',
+    name: 'Hussain in Al-Beshri',
     nameAr: 'حسين البشري',
     role: 'Head of Development',
     roleAr: 'رئيس قسم التطوير',
@@ -289,7 +289,7 @@ export const people = [
     email: 'raneem-alghamdi06@hotmail.com'
   },
   {
-    name: 'Mohammed Feedah',
+    name: 'Mohammed Fidah',
     nameAr: 'محمد فيده',
     role: 'Head of HR',
     roleAr: 'رئيس قسم الموارد البشرية',
@@ -340,7 +340,7 @@ export const people = [
     name: 'Joud Al-Zahrani',
     nameAr: 'جود الزهراني',
     role: 'HR Manager',
-    roleAr: 'مسؤلة موارد بشرية',
+    roleAr: 'مسؤولة موارد بشرية',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -409,10 +409,10 @@ export const people = [
     email: 'Analsefri@gmail.com'
   },
   {
-    name: 'Daniah Bas-hi',
+    name: 'Daniah Basahi',
     nameAr: 'دانية باصهي',
     role: 'VP of Marketing',
-    roleAr: 'نائية قسم التسويق',
+    roleAr: 'نائبة قسم التسويق',
     imageUrl:
       '#',
     twitterUrl: '#',
