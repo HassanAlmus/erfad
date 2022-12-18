@@ -360,6 +360,7 @@ export const people = [
     instagramUrl: 'https://www.instagram.com/18asd1/',
     email: 'Jude.aljizawi@gmail.com'
   },
+  
   {
     name: 'Fatima Alarfaj',
     nameAr: 'فاطمة العرفج',
