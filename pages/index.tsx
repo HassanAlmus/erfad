@@ -481,6 +481,18 @@ export const people = [
     instagramUrl: 'https://www.instagram.com/xl.iyt/',
     email: 'talloole@gmail.com'
   },
+  {
+    name: 'Aljohara Aljahdali',
+    nameAr: 'الجوهرة الجحدلي',
+    role: 'Content Writer',
+    roleAr: 'كاتبة محتوى',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'aljahdalialjohara@gmail.com'
+  },
 ]
 
 export const Footer =()=> (
