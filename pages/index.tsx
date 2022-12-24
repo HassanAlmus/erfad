@@ -483,7 +483,7 @@ export const people = [
   },
   {
     name: 'Aljohara Aljahdali',
-    nameAr: 'الجوهرة الجحدلي',
+    nameAr: 'الجوهره الجحدلي',
     role: 'Content Writer',
     roleAr: 'كاتبة محتوى',
     imageUrl:
