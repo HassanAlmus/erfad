@@ -3,6 +3,7 @@ import { Fragment, useState } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { StarIcon, SparklesIcon, CheckIcon, InformationCircleIcon, QuestionMarkCircleIcon, AtSymbolIcon, UserCircleIcon, SpeakerphoneIcon} from '@heroicons/react/outline'
+import Image from 'next/image'
 
 const navigation = [
   { name: 'Leadership | القادة', href: '#leadership' },
@@ -157,7 +158,7 @@ export const people = [
     email: 'masmoayad@gmail.com'
   }, */
   {
-    name: 'Hussain in Al-Beshri',
+    name: 'Hussein in Al-Beshri',
     nameAr: 'حسين البشري',
     role: 'Head of Development',
     roleAr: 'رئيس قسم التطوير',
@@ -434,7 +435,7 @@ export const people = [
     email: 'alanoodalqahtani66@gmail.com'
   },
   {
-    name: 'Ameen Al-Hachem',
+    name: 'Ameen Al-Hashem',
     nameAr: 'امين آل هاشم',
     role: 'Development Officer',
     roleAr: 'مسؤول تطوير',
@@ -752,7 +753,7 @@ const Home: NextPage = () => {
         </main>
       </div>
     </div>
-    
+
     <div className="bg-white">
       {/* Header */}
       <div className="relative pb-32 bg-gray-800">
@@ -829,6 +830,16 @@ const Home: NextPage = () => {
         </div>
       </section>
     </div>
+
+    <div className='relative h-[300px] w-[100%] flex justify-center'>
+      <Image
+        src="/erfadNumbers.png"
+        alt="Eefad in Numbers"
+        layout="fill"
+        objectFit="contain"
+      />
+    </div>
+
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
         <div>
