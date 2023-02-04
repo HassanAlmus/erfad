@@ -3,15 +3,12 @@ import { people, Footer } from '.'
 import { UserCircleIcon, AtSymbolIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import Head from 'next/head'
-const stats = [
-    { label: 'الشركاء', value: '8' },
-    { label: 'Partners', value: '8' },
-  ]
+import Image from 'next/image'
 
 const Members: NextPage = () => (
     <>
     <Head>
-       <title>Erfad Initiatives | مبادرات إرفاد</title>
+       <title>مشاريع إرفاد</title>
     </Head>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 my-6">
         <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
@@ -116,15 +113,9 @@ const Members: NextPage = () => (
         <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl text-right">
             مبادرة #نتحمل_المسؤولية 
         </h2>
-        <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
-            #TakingResponsibility Initiative  
-        </h2>
         <div className="mt-6 text-gray-500 space-y-6">
             <p className="text-xl text-right">
             لأننا نؤمن بأن البيئة مسؤولية الجميع، وأن المتأثر الوحيد سلبًا في هذه المعادلة هم البشر وحدهم، وأن ما تحتاجه البيئة بحق هو &#34;أفعال&#34;و &#34;قرارات&#34;و &#34;مبادرات&#34;،بمناسبة اليوم العالمي للبيئة، الموافق 5 يونيو؛ تعلن منظمة إِرفاد عن إطلاقها  بالتعاون مع شركائها لمبادرة #نتحمل_المسؤولية، سعيًا منهم لنشر عادات سهلة التطبيق ، كبيرة الأثر.
-            </p>
-            <p className="text-xl leading-7">
-            Because we believe that the environment is everyone&#39;s responsibility, that the only people who are negatively affected by this problem are humans, and that what the environment truly needs are &#34;actions&#34; and &#34;decisions,&#34; Erfad has collaborated with its partners to launch the &#34;#TakingResponsibility&#34; movement on the occasion of World Environment Day, in an effort to spread simple and effective habits.
             </p>
         </div>
         </div>
@@ -132,7 +123,9 @@ const Members: NextPage = () => (
         {/* Stats section */}
         <div className="mt-10">
         <dl className="grid grid-cols-2 gap-x-4 gap-y-8">
-            {stats.map((stat) => (
+            {[
+    { label: 'الشركاء', value: '8' },
+  ].map((stat) => (
             <div key={stat.label} className="border-t-2 border-gray-100 pt-6">
                 <dt className="text-base font-medium text-gray-500">{stat.label}</dt>
                 <dd className="text-3xl font-extrabold tracking-tight text-gray-900">{stat.value}</dd>
@@ -141,8 +134,10 @@ const Members: NextPage = () => (
         </dl>
         </div>
     </div>
+
     </div>
 </div>
+
 <div className="bg-white">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
@@ -201,6 +196,97 @@ const Members: NextPage = () => (
         </div>
       </div>
     </div>
+
+
+    <div className='flex' style={{'justifyContent': 'space-around'}}>
+      <div>
+      <div className='relative h-[300px] w-[400px] flex justify-center'>
+      <Image
+        src="/greentalk.png"
+        alt="شعار حوار اخضر"
+        layout="fill"
+        objectFit="contain"
+      />
+    </div>
+    <div className='relative h-[300px] w-[400px] flex justify-center'>
+      <Image
+        src="/evc.png"
+        alt="فريق عفت التطوعي"
+        layout="fill"
+        objectFit="contain"
+      />
+    </div>
+      </div>
+   
+    <div className="relative max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+        {/* Content area */}
+        <div className="pt-12 sm:pt-16 lg:pt-20">
+        <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl text-right">
+           حوار أخضر
+        </h2>
+        <div className="mt-6 text-gray-500 space-y-6">
+            <p className="text-xl text-right">
+            حوار أخضر هو برنامج حواري باللغة العربية، يستضيف محاورين خبراء بالمجال البيئي، ومناقشة أهم القضايا البيئية السائدة عالميًا، من خلال لقاءات حضورية متتالية حول المملكة العربية السعودية، تحوي هذه اللقاءات عدد من الحوارات والنقاشات حول مواضيع مثل: الاستدامة، الموضة السريعة، المنتجات الصديقة بالبيئة، والأكل الفائض، بالإضافة لعدد من النشاطات التفاعلية للحضور، تمكنهم من ترسيخ عادات بيئية سهلة الممارسة، كبيرة الأثر. 
+            </p>
+        </div>
+        </div>
+
+        {/* Stats section */}
+        <div className="mt-10">
+        <dl className="grid grid-cols-2 gap-x-4 gap-y-8">
+            {[{label: "المستفيدون", value: "50"},{label: "الشركاء", value: "1"},{label: "المتطوعون", value: "12"}].map((stat) => (
+            <div key={stat.label} className="border-t-2 border-gray-100 pt-6">
+                <dt className="text-base font-medium text-gray-500">{stat.label}</dt>
+                <dd className="text-3xl font-extrabold tracking-tight text-gray-900">{stat.value}</dd>
+            </div>
+            ))}
+        </dl>
+        </div>
+    </div>
+    </div>
+    
+    <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+        {/* Content area */}
+        <div className="pt-12 sm:pt-16 lg:pt-20">
+        <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl text-right">
+            حملة التعليم 
+        </h2>
+        <div className="mt-6 text-gray-500 space-y-6">
+            <p className="text-xl text-right">
+            حملة بيئية توعوية باللغتين العربية والإنجليزية، تضم عدد متنوع كبير من الأنشطة الترفيهية التعليمية التي تم إعدادها حسب الذكاءات المتعددة للطلبة، من مدارس المرحلة التمهيدية، وصولًا إلى مدارس المرحلة الثانوية، فريق إرفاد يزور مختلف المؤسسات التعليمية (عالمية، حكومية، إلخ…) من جميع أنحاء المملكة لتحقيق رؤيتهم لسعودية أكثر اخضرارًا.
+
+            </p>
+        </div>
+        </div>
+
+        {/* Stats section */}
+        <div className="mt-10">
+        <dl className="grid grid-cols-2 gap-x-4 gap-y-8">
+            {[{label: "المستفيدون", value: "60"},{label: "الشركاء", value: "1"},{label: "المتطوعون", value: "9"}].map((stat) => (
+            <div key={stat.label} className="border-t-2 border-gray-100 pt-6">
+                <dt className="text-base font-medium text-gray-500">{stat.label}</dt>
+                <dd className="text-3xl font-extrabold tracking-tight text-gray-900">{stat.value}</dd>
+            </div>
+            ))}
+        </dl>
+        </div>
+    </div>
+
+    <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
+        {/* Content area */}
+        <div className="pt-12 sm:pt-16 lg:pt-20">
+        <h2 className="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl text-right">
+            مقالات إرفاد 
+        </h2>
+        <div className="mt-6 text-gray-500 space-y-6">
+            <p className="text-xl text-right">
+            تم إنشاء مدونة يتناول فيها كتّاب إرفاد مقالات شهرية، باللغتين الإنجليزية والعربية، تناقش القضايا البيئية وملامستها للواقع، والطرق الممكنة لحلها على الصعيد الشخصي والمجتمعي والعالمي.
+
+            </p>
+        </div>
+        </div>
+    </div>
+
     <Footer/>
     </>
 ) 

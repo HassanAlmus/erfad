@@ -8,7 +8,7 @@ import Image from 'next/image'
 const navigation = [
   { name: 'Leadership | القادة', href: '#leadership' },
   { name: 'Members | الأعضاء', href: '/members' },
-  { name: 'Initiatives | المبادرات', href: '/initiatives' }
+  { name: 'Projects | المشاريع', href: '/projects' }
 ] 
 
 const navigation2 = [
@@ -508,7 +508,7 @@ export const Footer =()=> (
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-xl text-gray-400">&copy; 2022, Erfad Org. All rights reserved.</p>
+          <p className="text-center text-xl text-gray-400">&copy; 2023, Erfad Org. All rights reserved.</p>
         </div>
       </div>
     </footer>
