@@ -110,53 +110,7 @@ export const people = [
     instagramUrl: '#',
     email: 'retajaasulami@gmail.com'
   },
- /*  {
-    name: 'Jood Alfadhel',
-    nameAr: 'جود  الفاضل',
-    role: 'Riyadh Regional Officer',
-    roleAr: 'مديرة الرياض الإقليمية',
-    imageUrl: 'https://cdn.discordapp.com/attachments/852672256977928224/980157935160262656/PHOTO-2022-05-28-15-54-07.jpg',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/jood-alfadhel-8703a0161',
-    instagramUrl: 'https://instagram.com/jood_af?igshid=NmZiMzY2Mjc=',
-    email: 'joodaf@gmail.com'
-  }, */
-  /* {
-    name: 'Fatimah Alhejji',
-    nameAr: 'فاطمة الحجي',
-    role: 'Al-Ahsaa Regional Officer',
-    roleAr: 'مديرة الأحساء الإقليمية',
-    imageUrl:
-      'https://cdn.discordapp.com/attachments/852672256977928224/980161040216096778/Screenshot_2022-05-28_202850.png',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/fatimahalhejji',
-    instagramUrl: 'https://instagram.com/x.feto?igshid=YmMyMTA2M2Y=',
-    email: 'ifetoali@gmail.com'
-  }, */
-/*   {
-    name: 'Amr Almanjnouni',
-    nameAr: 'عمرو المجنوني',
-    role: 'Project Manager',
-    roleAr: 'مدير مشروع',
-    imageUrl:
-      '#',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: '#',
-    email: 'amr.almajnouni@gmail.com'
-  }, */
-  /* {
-    name: 'Moayad Aliasmail',
-    nameAr: 'مؤيد الإسماعيل',
-    role: 'Public Relations Manager',
-    roleAr: 'مدير علاقات عامة',
-    imageUrl:
-      'https://cdn.discordapp.com/attachments/852672256977928224/980161664248860733/Screenshot_2022-05-28_203154.png',
-    twitterUrl: 'http://www.twitter.com/MoayadAlismail',
-    linkedinUrl: '#',
-    instagramUrl: '#',
-    email: 'masmoayad@gmail.com'
-  }, */
+
   {
     name: 'Hussein in Al-Beshri',
     nameAr: 'حسين البشري',
@@ -241,18 +195,6 @@ export const people = [
     instagramUrl: 'https://www.instagram.com/invites/contact/?i=w2driehj59m3&utm_content=1vmto5l',
     email: 'alqahtaniassaf@gmail.com'
   },
- /*  {
-    name: 'Jouri Shudayyid',
-    nameAr: 'جوري شديد',
-    role: 'Translator',
-    roleAr: 'مترجمة',
-    imageUrl:
-      '#',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: '#',
-    email: 'jouri10sami@gmail.com'
-  }, */
   {
     name: 'Shahad Alhamada',
     nameAr: 'شهد الحمادة',
