@@ -7,7 +7,7 @@ import Head from 'next/head'
 const Members: NextPage = () => (
     <>
     <Head>
-       <title>Erfad Members | أعضاء إرفاد</title>
+       <title>أعضاء إرفاد</title>
     </Head>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 my-6">
         <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
@@ -29,7 +29,7 @@ const Members: NextPage = () => (
       <div className="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
           <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-            <h2 className="text-3xl text-white font-extrabold tracking-tight sm:text-4xl">Meet our team | أعضاء إرفاد</h2>
+            <h2 className="text-3xl text-white font-extrabold tracking-tight sm:text-4xl">أعضاء إرفاد</h2>
           </div>
           <ul
             role="list"
@@ -43,7 +43,6 @@ const Members: NextPage = () => (
                     <div className="text-xl leading-6 font-medium space-y-1">
                        <h3 className='text-green text-center'>{person.name} | {person.nameAr}</h3>
                       <p className="text-white">{person.roleAr}</p>
-                      <p className="text-white">{person.role}</p>
                     </div>
                   </div>
                   <ul role="list" className="flex justify-center space-x-5">

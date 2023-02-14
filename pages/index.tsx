@@ -6,9 +6,9 @@ import { StarIcon, SparklesIcon, CheckIcon, InformationCircleIcon, QuestionMarkC
 import Image from 'next/image'
 
 const navigation = [
-  { name: 'Leadership | القادة', href: '#leadership' },
-  { name: 'Members | الأعضاء', href: '/members' },
-  { name: 'Projects | المشاريع', href: '/projects' }
+  { name: 'القادة', href: '#leadership' },
+  { name: 'الأعضاء', href: '/members' },
+  { name: 'المشاريع', href: '/projects' }
 ] 
 
 const navigation2 = [
@@ -63,28 +63,27 @@ const navigation2 = [
 
 export const people = [
   {
+    name: 'Wareef Alghaylani',
+    nameAr: 'وريف الغيلاني',
+    role: 'Exec Creative Director, Founding Member',
+    roleAr: 'المديرة التنفيذية',
+    imageUrl: 'https://cdn.discordapp.com/attachments/852672256977928224/1024154895319846952/2022-09-27_06.05.26.jpg',
+    twitterUrl: 'https://twitter.com/wareef_p?s=21',
+    linkedinUrl: 'http://linkedin.com/in/wareef-alghaylani',
+    instagramUrl: '#',
+    email: 'wareef.xs@gmail.com'
+  },
+  {
     name: 'Layan Noorwali',
     nameAr: 'ليان نورولي',
     role: 'President, Founding Member',
-    roleAr: 'عضوة مؤسسة، الرئيسة',
+    roleAr: 'نائبة المديرة التنفيذية',
     imageUrl:
       '#',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/layan-noorwali-a098a1217',
     instagramUrl: '#',
     email: 'layan.m.nr.w@gmail.com'
-  },
-  {
-    name: 'Wareef Alghaylani',
-    nameAr: 'وريف الغيلاني',
-    role: 'Exec Creative Director, Founding Member',
-    roleAr: 'عضوة مؤسسة، المديرة التنفيذية الإبداعية',
-    imageUrl:
-      'https://cdn.discordapp.com/attachments/852672256977928224/1024154895319846952/2022-09-27_06.05.26.jpg',
-    twitterUrl: 'https://twitter.com/wareef_p?s=21',
-    linkedinUrl: 'http://linkedin.com/in/wareef-alghaylani',
-    instagramUrl: '#',
-    email: 'wareef.xs@gmail.com'
   },
   {
     name: 'Retal Jadaa',
@@ -356,7 +355,7 @@ export const people = [
     name: 'Daniah Basahi',
     nameAr: 'دانية باصهي',
     role: 'VP of Marketing',
-    roleAr: 'نائبة قسم التسويق',
+    roleAr: 'رئيسة قسم الاعلام والتسويق',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -501,8 +500,8 @@ const Home: NextPage = () => {
               <QuestionMarkCircleIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">Want to join us? | تريد الانضمام؟</span> 
-              <span className="hidden md:inline">Want to join us? | تريد الانضمام؟</span> 
+              <span className="md:hidden">تريد الانضمام؟</span> 
+              <span className="hidden md:inline">تريد الانضمام؟</span> 
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
@@ -510,7 +509,7 @@ const Home: NextPage = () => {
               href="https://forms.gle/eTLxERjXgML8bBwz6"
               className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-darkblue bg-white hover:bg-indigo-50"
             >
-             Apply | التقديم
+            التقديم
             </a>
           </div>
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
@@ -657,22 +656,19 @@ const Home: NextPage = () => {
               <span className="inline text-green">إرفاد</span>
             </h1>
             <div className='flex justify-between flex-wrap-reverse gap-10'>
-            <p className="w-[400px] text-left mt-3 max-w-md mx-auto text-2xl text-gray-500 md:mt-5 md:max-w-3xl">
-            A non-profit environmental organization led by a group of young environmentalists, attempting to improve public awareness of environmental issues and work on thoughtful plans to make a change in real-life.
-            </p>
             <p className="w-[400px] text-right mt-3 max-w-md mx-auto text-2xl text-gray-500 md:mt-5 md:max-w-3xl">
             منظمة بيئية غير ربحية يديرها مجموعة من الشباب المؤيدين للثقافة البيئية، سعيَا منهم لزيادة الوعي عن القضايا البيئية، والعمل على خطط مدروسة تحدث تغيير على أرض الواقع.
             </p>
             </div>
             <div className="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-              <div className="rounded-md shadow">
+{/*               <div className="rounded-md shadow">
                 <a
                   href="https://erfad-en.blogspot.com/" target='_blank' rel="noreferrer"
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent font-bold rounded-md text-white bg-green hover:bg-darkgreen md:py-4 text-2xl md:px-10"
                 >
                   Our Blog
                 </a>
-              </div>
+              </div> */}
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="https://erfad-ar.blogspot.com/" target='_blank' rel="noreferrer"
@@ -708,15 +704,12 @@ const Home: NextPage = () => {
           <div className="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true" />
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl text-center font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">Our Vision | رؤيتنا</h1>
-          <div className='flex justify-between gap-x-10'>
-          <p className="mt-6 max-w-3xl text-2xl text-gray-300">
-          A greener Saudi, where citizens work together to improve the environment by adopting environmentally-friendly habits in their daily lives.
-          </p>
-          <p className="mt-6 text-right max-w-3xl text-2xl text-gray-300">
+          <h1 className="text-4xl text-center font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">رؤيتنا</h1>
+          <div>
+          <p className="mt-6 [direction:rtl] text-right  text-2xl text-gray-300">
           سعودية أكثر اخضرارَا, يسهم مواطنوها مجتمعين على اتباع ممارسات يومية تساعد في تحسين البيئة.
           </p>
-          </div>
+          </div>   
         </div>
       </div>
 
@@ -734,24 +727,8 @@ const Home: NextPage = () => {
                 <div className="absolute top-0 p-5 inline-block bg-green rounded-xl shadow-lg transform -translate-y-1/2">
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </div>
-                <h3 className="text-2xl font-medium text-gray-900 text-center">Our Message | رسالتنا</h3>
+                <h3 className="text-2xl font-medium text-gray-900 text-center">رسالتنا</h3>
                 <p className="mt-4 text-xl text-gray-500 text-right">نسعى إلى بناء مجتمع يؤثر على البيئة بشكل إيجابي من خلال رفع الوعي لديهم، وإتاحة حملات وفرص تطوعية ثريّة توطّد القيم البيئية.</p>
-                <p className="mt-4 text-xl text-gray-500">We seek to build a society that has a positive impact on the environment by increasing public awareness and providing campaigns and volunteer opportunities that promote environmental values.</p>
-              </div>
-            </div>
-            <div className="bg-white rounded-2xl shadow-xl">
-              <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
-                <div className="absolute top-0 p-5 inline-block bg-green rounded-xl shadow-lg transform -translate-y-1/2">
-                  <StarIcon className="h-6 w-6 text-white" aria-hidden="true" />
-                </div>
-                <h3 className="text-2xl font-medium text-gray-900 text-center">Our Mission</h3>
-                <ul className='list-disc list-inside mt-4 text-xl text-gray-500'>
-                  <li>Calling for urgent action on environmental issues in general and the issue of climate change in particular in Saudi society.</li>
-                  <li>Clarify any misconceptions about the environment.</li>
-                  <li>Improving environmental culture through creating suitable content for all segments of Saudi society in order to fulfill the organization&#39;s primary goal.</li>
-                  <li>Encouraging people to make a difference and seek to discover solutions that help improve the environment.</li>
-                  <li>Create opportunities for all segments of Saudi society and start taking real actions to improve the environment.</li>
-                </ul>
               </div>
             </div>
             <div className="bg-white rounded-2xl shadow-xl">
@@ -785,44 +762,44 @@ const Home: NextPage = () => {
     <div className="bg-white">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8 lg:grid lg:grid-cols-3 lg:gap-x-8">
         <div>
-          <p className="mt-2 text-3xl font-extrabold text-gray-900">Our Values | قيمنا</p>
+          <p className="mt-2 text-3xl font-extrabold text-gray-900 text-right">قيمنا</p>
         </div>
         <div className="mt-12 lg:mt-0 lg:col-span-2">
           <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-3 sm:grid-rows-2 sm:grid-flow-col sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Persistence | الإصرار</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">الإصرار</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Sincerity | الإخلاص</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">الإخلاص</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Honesty | الأمانة</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">الأمانة</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Growth | النماء</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">النماء</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Justice | العدل</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">العدل</p>
                 </dt>
               </div>
               <div className="relative">
                 <dt>
                   <CheckIcon className="absolute h-6 w-6 text-green" aria-hidden="true" />
-                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">Excellence | الإتقان</p>
+                  <p className="ml-9 text-2xl leading-6 font-medium text-gray-900">الإتقان</p>
                 </dt>
               </div>
           </dl>
@@ -863,15 +840,6 @@ const Home: NextPage = () => {
             />
           </div>
           <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
-              <div>
-                <dt>
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
-                    <QuestionMarkCircleIcon className="h-6 w-6" aria-hidden="true" />
-                  </div>
-                  <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">Why &#34;Erfad&#34;?</p>
-                </dt>
-                <dd className="mt-2 text-xl text-gray-500">Erfad is a synonym of beneficence, which represents one of the goals that we seek in every work bearing the organization’s name.</dd>
-              </div>
               <div className='[direction:rtl]'>
                 <dt>
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
@@ -880,15 +848,6 @@ const Home: NextPage = () => {
                   <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">لماذا &#34;إرفاد&#34;؟</p>
                 </dt>
                 <dd className="mt-2 text-xl text-gray-500">إرفاد مرادف إحسان، والتي تمثل احدى اهدافنا التي نسعى لها في كل عمل يحمل اسم المنظمة.</dd>
-              </div>
-              <div>
-                <dt>
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
-                    <InformationCircleIcon className="h-6 w-6" aria-hidden="true" />
-                  </div>
-                  <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">Our Logo</p>
-                </dt>
-                <dd className="mt-2 text-xl text-gray-500">The font has been carefully chosen to reflect the organization&#39;s target audience. <br/><br/>The letter &#34;ر&#34; was delivered in Arabic and the letter &#34;f&#34; in English to express the organization&#39;s provision of all means of communication with the various categories of its target audience.<br/><br/>The palm represents growth, and each frond of the palm represents one of the values of the organization, which are: (persistence, sincerity, honesty, growth, justice, perfection).</dd>
               </div>
               <div className='[direction:rtl]'>
                 <dt>
@@ -923,7 +882,6 @@ const Home: NextPage = () => {
                       <h3 className='text-green'>{person.nameAr}</h3>
                       <h3 className='text-green'>{person.name}</h3>
                       <p className="text-white">{person.roleAr}</p>
-                      <p className="text-white">{person.role}</p>
                       <ul role="list" className="flex space-x-5">
                       {person.twitterUrl!=='#'&&<li>
                         <a target='_blank' rel="noreferrer" href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
