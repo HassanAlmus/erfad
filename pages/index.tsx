@@ -435,6 +435,18 @@ export const people = [
     instagramUrl: '#',
     email: 'aljahdalialjohara@gmail.com'
   },
+  {
+    name: 'Emad Babsail',
+    nameAr: 'عماد بابصيل',
+    role: 'Project Manager',
+    roleAr: 'مدير مشروع',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: ''
+  },
 ]
 
 export const Footer =()=> (
