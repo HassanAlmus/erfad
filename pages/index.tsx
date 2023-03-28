@@ -113,26 +113,14 @@ export const people = [
   {
     name: 'Hussein in Al-Beshri',
     nameAr: 'حسين البشري',
-    role: 'Head of Development',
-    roleAr: 'رئيس قسم التطوير',
+    role: 'Head of Finances',
+    roleAr: 'رئيس قسم المالية',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/980163727951278191/My_project_2.png',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/hussain-al-beshri-87baba206',
     instagramUrl: 'https://www.instagram.com/hussainab15/',
     email: 'hussainalialbeshri@gmail.com'
-  },
-  {
-    name: 'Dai Shojaa',
-    nameAr: 'ضي شجاع',
-    role: 'HR Manager',
-    roleAr: 'مسؤولة موارد بشرية',
-    imageUrl:
-      'https://cdn.discordapp.com/attachments/852672256977928224/1052259972727193672/image.png',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: 'https://instagram.com/dai_shojaa?igshid=NmZiMzY2Mjc=',
-    email: 'daialishojaa@gmail.com'
   },
   {
     name: 'Hassan Almosapeeh',
@@ -185,8 +173,8 @@ export const people = [
   {
     name: 'Assaf Alqahtani',
     nameAr: 'عسّاف القحطاني',
-    role: 'Translator',
-    roleAr: 'مترجم',
+    role: 'Content Creator',
+    roleAr: 'صانع محتوى',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -219,18 +207,6 @@ export const people = [
     email: 'sarahani8@hotmail.com'
   },
   {
-    name: 'Raneem Alghamdi',
-    nameAr: 'رنيم الغامدي',
-    role: 'Mecca Projects Manager',
-    roleAr: 'مسؤولة مشاريع مكة المكرمة',
-    imageUrl:
-      'https://cdn.discordapp.com/attachments/852672256977928224/1052259328301748224/image.png',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/raneem-alaqeel-971693217/',
-    instagramUrl: 'https://www.instagram.com/xane2m/',
-    email: 'raneem-alghamdi06@hotmail.com'
-  },
-  {
     name: 'Mohammed Fidah',
     nameAr: 'محمد فيده',
     role: 'Head of HR',
@@ -245,8 +221,8 @@ export const people = [
   {
     name: 'Haifaa Al-Hussain',
     nameAr: 'هيفاء آل حسين',
-    role: 'HR Manager',
-    roleAr: 'مسؤولة موارد بشرية',
+    role: 'Content Writer',
+    roleAr: 'كاتبة محتوى',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -257,8 +233,8 @@ export const people = [
   {
     name: 'Razaan Al-Amoudi',
     nameAr: 'رزان العامودي',
-    role: 'VP of Development',
-    roleAr: 'نائبة رئيس لجنة التطوير',
+    role: 'HR Manager',
+    roleAr: 'مسؤولة موارد بشريه',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -287,7 +263,7 @@ export const people = [
       '#',
     twitterUrl: '#',
     linkedinUrl: '#',
-    instagramUrl: '#',
+    instagramUrl: 'https://www.instagram.com/jood_tz/',
     email: 'joodprofacc@gmail.com'
   },
   {
@@ -301,19 +277,6 @@ export const people = [
     linkedinUrl: '#',
     instagramUrl: 'https://www.instagram.com/18asd1/',
     email: 'Jude.aljizawi@gmail.com'
-  },
-  
-  {
-    name: 'Fatima Alarfaj',
-    nameAr: 'فاطمة العرفج',
-    role: 'Graphic Designer',
-    roleAr: 'مصممة جرافيك',
-    imageUrl:
-      '#',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: '#',
-    email: 'Fatimaabdullahalarfaj@gmail.com'
   },
   {
     name: 'Haneen Alanazi',
@@ -330,26 +293,14 @@ export const people = [
   {
     name: 'Yazan Ali-Shamrani',
     nameAr: 'يزن الشمراني',
-    role: 'Voice Over',
-    roleAr: 'معلق صوتي',
+    role: 'PR Manager',
+    roleAr: 'مسؤول علاقات عامة',
     imageUrl:
       'https://cdn.discordapp.com/attachments/852672256977928224/1052260382477135912/image.png',
     twitterUrl: '#',
     linkedinUrl: 'https://linktr.ee/Yazan.shamrani',
     instagramUrl: '#',
     email: 'yazan.shamrani717@gmail.com'
-  },
-  {
-    name: 'Anas Alsefri',
-    nameAr: 'أنس السفري',
-    role: 'Project Manager',
-    roleAr: 'مدير مشروع',
-    imageUrl:
-      '#',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: '#',
-    email: 'Analsefri@gmail.com'
   },
   {
     name: 'Daniah Basahi',
@@ -378,26 +329,14 @@ export const people = [
   {
     name: 'Ameen Al-Hashem',
     nameAr: 'امين آل هاشم',
-    role: 'Development Officer',
-    roleAr: 'مسؤول تطوير',
+    role: 'HR Manager',
+    roleAr: 'مسؤول موارد بشرية',
     imageUrl:
       '#',
     twitterUrl: '#',
     linkedinUrl: '#',
     instagramUrl: '#',
     email: 'Ameenalhashem13@gmail.com'
-  },
-  {
-    name: 'Aryam Al-Shehri',
-    nameAr: 'أريام الشهري',
-    role: 'Graphic Designer',
-    roleAr: 'مصممة جرافيك',
-    imageUrl:
-      '#',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-    instagramUrl: '#',
-    email: 'Aryam91900@gmail.com'
   },
   {
     name: 'Fajer Alkhulaifi',
@@ -414,8 +353,8 @@ export const people = [
   {
     name: 'Talal Alqahtani',
     nameAr: 'طلال القحطاني',
-    role: 'Head of PR',
-    roleAr: 'مدير العلاقات العامة',
+    role: 'Head of PR Division',
+    roleAr: 'رئيس قسم العلاقات العامة',
     imageUrl:
       '#',
     twitterUrl: 'https://twitter.com/Talal_Al_Bishri',
@@ -479,8 +418,8 @@ const Home: NextPage = () => {
               <QuestionMarkCircleIcon className="h-6 w-6 text-white" aria-hidden="true" />
             </span>
             <p className="ml-3 font-medium text-white truncate">
-              <span className="md:hidden">How can you help us? | كيف تساعدنا؟</span> 
-              <span className="hidden md:inline">How can you help us? | كيف تساعدنا؟</span> 
+              <span className="md:hidden">كيف تساعدنا؟</span> 
+              <span className="hidden md:inline">كيف تساعدنا؟</span> 
             </p>
           </div>
           <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
@@ -488,7 +427,7 @@ const Home: NextPage = () => {
               href="https://forms.gle/bywP7UaFAq6bhDFk8"
               className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-darkblue bg-white hover:bg-indigo-50"
             >
-             Contact | تواصل
+             تواصل
             </a>
           </div>
           <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
@@ -716,12 +655,6 @@ const Home: NextPage = () => {
           <div className="absolute inset-0 bg-gray-800 mix-blend-multiply" aria-hidden="true" />
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-          <h1 className="text-4xl text-center font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">رؤيتنا</h1>
-          <div>
-          <p className="mt-6 [direction:rtl] text-right  text-2xl text-gray-300">
-          سعودية أكثر اخضرارَا, يسهم مواطنوها مجتمعين على اتباع ممارسات يومية تساعد في تحسين البيئة.
-          </p>
-          </div>   
         </div>
       </div>
 
@@ -734,6 +667,15 @@ const Home: NextPage = () => {
           Contact us
         </h2>
         <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">  
+              <div className="bg-white rounded-2xl shadow-xl">
+              <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
+                <div className="absolute top-0 p-5 inline-block bg-green rounded-xl shadow-lg transform -translate-y-1/2">
+                  <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
+                </div>
+                <h3 className="text-2xl font-medium text-gray-900 text-center">رؤيتنا</h3>
+                <p className="mt-4 text-xl text-gray-500 text-right">سعودية أكثر اخضرارَا, يسهم مواطنوها مجتمعين على اتباع ممارسات يومية تساعد في تحسين البيئة.</p>
+              </div>
+            </div>
             <div className="bg-white rounded-2xl shadow-xl">
               <div className="flex-1 relative pt-16 px-6 pb-8 md:px-8">
                 <div className="absolute top-0 p-5 inline-block bg-green rounded-xl shadow-lg transform -translate-y-1/2">
@@ -860,19 +802,6 @@ const Home: NextPage = () => {
                   <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">لماذا &#34;إرفاد&#34;؟</p>
                 </dt>
                 <dd className="mt-2 text-xl text-gray-500">إرفاد مرادف إحسان، والتي تمثل احدى اهدافنا التي نسعى لها في كل عمل يحمل اسم المنظمة.</dd>
-              </div>
-              <div className='[direction:rtl]'>
-                <dt>
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-green text-white">
-                    <InformationCircleIcon className="h-6 w-6" aria-hidden="true" />
-                  </div>
-                  <p className="mt-5 text-2xl leading-6 font-medium text-gray-900">شعارنا</p>
-                </dt>
-                <dd className="mt-2 text-xl text-gray-500">
-                تم اختيار الخط بدقة ليعبر عن الجمهور المستهدف للمنظمة.<br/><br/>
-وتم توصيل حرف ال &#34;ر&#34; باللغة العربية وحرف ال&#34;f&#34; باللغة الانجليزية ليعبر عن توفير المنظمة لجميع سبل التواصل مع مختلف فئات جمهورها المستهدف.<br/><br/>
-تمثل النخلة النماء ويمثل كل سعف للنخلة قيمة من قيم المنظمة وهي: (الإصرار، الإخلاص، الأمانة، النماء، العدالة، الإتقان)
-                </dd>
               </div>
           </dl>
         </div>
