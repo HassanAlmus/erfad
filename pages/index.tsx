@@ -258,7 +258,7 @@ export const people = [
     name: 'Joud Al-Zahrani',
     nameAr: 'جود الزهراني',
     role: 'HR Manager',
-    roleAr: 'مسؤولة موارد بشرية',
+    roleAr: 'نائية رئيس قسم الموارد البشرية',
     imageUrl:
       '#',
     twitterUrl: '#',
@@ -366,7 +366,7 @@ export const people = [
     name: 'Aljohara Aljahdali',
     nameAr: 'الجوهره الجحدلي',
     role: 'Content Writer',
-    roleAr: 'كاتبة محتوى',
+    roleAr: 'كاتبة محتوى تسويقي',
     imageUrl:
       '#',
     twitterUrl: '#',
