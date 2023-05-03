@@ -378,6 +378,18 @@ export const people = [
     name: 'Emad Babsail',
     nameAr: 'عماد بابصيل',
     role: 'Project Manager',
+    roleAr: 'مسؤول مشاريع منطقة الشرقية',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: ''
+  },
+  {
+    name: 'Emad Babsail',
+    nameAr: 'عماد بابصيل',
+    role: 'Project Manager',
     roleAr: 'مدير مشروع',
     imageUrl:
       '#',
@@ -385,6 +397,90 @@ export const people = [
     linkedinUrl: '#',
     instagramUrl: '#',
     email: ''
+  },
+  {
+    name: '',
+    nameAr: 'نوره حسين حسن شلفه',
+    role: '',
+    roleAr: 'كاتبة محتوى',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'norahhussain2@outlook.sa'
+  },
+  {
+    name: '',
+    nameAr: 'نرمين علي حكمي',
+    role: '',
+    roleAr: 'مصممة جرافيك',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: 'https://www.instagram.com/saaeea/?hl=en',
+    email: 'jbsksjkl@gmail.com'
+  },
+  {
+    name: '',
+    nameAr: 'لين بدر الجهني',
+    role: '',
+    roleAr: 'عضو موارد بشرية',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Leen878b@gmail.com'
+  },
+  {
+    name: '',
+    nameAr: 'آدم صالح الصرامي ',
+    role: '',
+    roleAr: 'مسؤول مواقع التواصل الاجتماعي ',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'alsaramiadam@gmail.com'
+  },
+  {
+    name: '',
+    nameAr: 'الجازي النعيمي',
+    role: '',
+    roleAr: 'مصممة جرافيك ',
+    imageUrl:
+      '#',
+    twitterUrl: 'https://twitter.com/AlnoaimiAljazi',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'aljazijaber29@gmail.com'
+  },
+  {
+    name: '',
+    nameAr: 'محمد أحمد الحسن',
+    role: '',
+    roleAr: 'مدقّق لغوي ',
+    imageUrl:
+      '#',
+    twitterUrl: '#',
+    linkedinUrl: '#',
+    instagramUrl: '#',
+    email: 'Mohn5552@gmail.com'
+  },
+  {
+    name: '',
+    nameAr: 'نورة عبدالرحمن القيضي ',
+    role: '',
+    roleAr: 'الموارد البشرية',
+    imageUrl:
+      '#',
+    twitterUrl: '',
+    linkedinUrl: '#',
+    instagramUrl: 'https://www.instagram.com/f4lllc/',
+    email: 'Noorh54214@gmail.com'
   },
 ]
 
