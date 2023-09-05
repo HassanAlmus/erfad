@@ -1,18 +1,17 @@
-import type { NextPage } from 'next';
-import { Fragment, useState } from 'react';
 import { Popover, Transition } from '@headlessui/react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import {
-	StarIcon,
-	SparklesIcon,
-	CheckIcon,
-	InformationCircleIcon,
-	QuestionMarkCircleIcon,
 	AtSymbolIcon,
+	CheckIcon,
+	MenuIcon,
+	QuestionMarkCircleIcon,
+	SparklesIcon,
+	StarIcon,
 	UserCircleIcon,
-	SpeakerphoneIcon,
+	XIcon,
 } from '@heroicons/react/outline';
+import type { NextPage } from 'next';
 import Image from 'next/image';
+import { Fragment, useState } from 'react';
 
 const navigation = [
 	{ name: 'القادة', href: '#leadership' },
@@ -80,7 +79,7 @@ export const people = [
 		roleAr: 'المديرة التنفيذية، عضوة مؤسسة',
 		imageUrl:
 			'https://cdn.discordapp.com/attachments/852672256977928224/1024154895319846952/2022-09-27_06.05.26.jpg',
-		twitterUrl: 'https://twitter.com/wareef_p?s=21',
+		twitterUrl: '#',
 		linkedinUrl: 'http://linkedin.com/in/wareef-alghaylani',
 		instagramUrl: '#',
 		email: 'wareef.xs@gmail.com',
